@@ -1,0 +1,49 @@
+The nameservers and IP where provided in the welcome email; if you want to use your own DNS; you can use the IP provided in the welcome email.
+
+Server IP: 107.6.162.42
+
+If you want to use our DNS servers:
+
+Nameserver 1: ns522.040services.net [ 107.6.162.42 ]
+Nameserver 2: ns425.040services.net [ 198.20.101.186 ]
+
+The same counts for the addon domain, you can create this in cPanel, and use the Server IP; in your DNS service if you do not want to use our nameservers.
+
+
+
+
+
+If you have requested a domain name during sign up, we will register this domain once your payment has been cleared, this can take 24 hours.
+Dear New Client,
+Please keep in mind that your domain name will not be visible on the internet for between 24 and 72 hours. This process is called Propagation. Until your domain has Propagated your website and email will not function, we have provided a temporary url which you may use to view your website and upload files in the meantime.
+IMPORTANT: Make sure you upload your files to the PUBLIC_HTML or www directory on the server otherwise they will not be visible on the internet. Also, please be sure that your homepage is saved as an "index" file e.g., index.htm, index.html*, etc. We suggest you download FileZilla from http://filezilla-project.org/ if you do not already have an ftp client. Download page: https://filezilla-project.org/download.php?show_all=1 
+   *note we place an example "index.html" you should remove/overwrite this file either by FTP or file manager.   To use a secure way to transfer your files over FTP please use FTPS (note that this is different from SFTP) if you use Filezilla please select as protocol: FTP and as Encryption: Explicit FTP over TLS.
+Below are your account details, you will need your username and password to access ftp and your control panel.
+New Account Info
+Domain: temporary.zone Username: temporar Password: 7Esym1R77h Hosting Package: Platinum Package 2015 Server IP: 107.6.162.42 If you have a dedicated IP it is:  Nameserver 1: ns522.040services.net [ 107.6.162.42 ] Nameserver 2: ns425.040services.net [ 198.20.101.186 ]
+Temporarily you may use one of the addresses given below manage your web site
+Temporary FTP Hostname: 107.6.162.42 Temporary Control Panel: http://107.6.162.42/cpanel
+Once your domain has Propagated
+FTP Hostname: temporary.zone Webpage URL: http://www.temporary.zone/ Control Panel: http://www.temporary.zone/cpanel
+Mail settings
+Catch all email with your default email account
+POP3 Host Address : mail.temporary.zone SMTP Host Address: mail.temporary.zone Username: temporar Password: 7Esym1R77h
+Additional mail accounts that you add
+POP3 Host Address : mail.temporary.zone SMTP Host Address: mail.temporary.zone Username : The FULL email address that you are picking up from (e.g. info@yourdomain.com).  If your email client cannot accept a @ symbol, then you may replace this with a backslash . Password : As specified in your control panel
+Corporate users behind a proxy/firewall
+Many customers which are behind corporate firewalls are not able to connect to our cPanel or Webmail due to restrictive settings on the firewall their company is using. Solution would be either open the ports, or use the following access:
+cPanel: http://cpanel.temporary.zone Webmail: http://webmail.temporary.zone Webdisk: http://webdisk.temporary.zone WHM: http://whm.temporary.zone (not available on normal hosting packages)
+Note that the above will only work when the DNS is managed by 040 Hosting, please contact support for more details if needed.
+Thank you for choosing 040hosting for your webhosting services, if you have any questions regarding your service please use our helpdesk at http://www.040support.nl 
+Offsite Remote backups needed? Need offsite backups ? check out SiteAutoBackup which may assist you to make offsite backups of your hosting account. You can also easily create full backups free from your cPanel accou
+
+
+To use our AutoInstall SSL technology, the fastest and easiest way to get your new SSL certificate set up, please login to your cPanel control panel, click on the AutoInstall SSL icon. Then use the following Token Code & Token ID for the automatic installation of Store Order ID:404516.
+Token Code: e7979e2696d03f31b6ef
+Token ID: 1D9966EFD7NDA0NTE20
+
+
+
+mysql: 
+temporar_vanilla
+heslo : RpcpB4@So[C?

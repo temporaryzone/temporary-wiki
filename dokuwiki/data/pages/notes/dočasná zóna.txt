@@ -1,0 +1,55 @@
+Dočasná zóna je open-source design studio, aktivistická reklamní agentůra,  nezisková produkční společnost a síť specialistů. Její cíl je vytvořit seskupení designérů, umělců, spisovatelů, kritiků a produkčních, kteří budou organicky formovat menší akční buňky schopné rychlých řešení. Filozofie toho jak budou členi dočasné zóny spolupracovat je částečně inspirována vývojem open-source softwaru (git, milestones, sprints) a nevnucuje jim žádnou hiearchii.
+
+Dočasná zóna je tedy určitou platformou a systémem pro kritickou spolupráci na projektech kde není cílem peňežní zisk, ale především aktivismus, případně radost.
+
+Projekty a témata budou členi na dočasnou zónu přinášet sami a okruhy témat nejsou přímo definovány. Projekty samotné však nejsou přímo součástí této diplomové práce. 
+
+Tato diplomová práce si klade za cíl vymyslet fungující způsoby spolupráce na dočasné zóně, postavit nutnou infrastrukturu/systémy nutné k jejímu fungování, vytvořit to jak se bude dočasná zóna prezentovat a obecně půjde o snahu tuto komunitu posunout dále. Podstatné bude zdokumentovat tento vývoj a reflektovat na něj.
+
+Základními pilíři infrastruktury budou internetové kolaborační nástroje a offline virtuální prostor, který bude sloužit nejen k prezentaci, ale i jako nástroj spolupráce. Tento offline virtuální prostor bude zastávat funkce které by ve fyzické komunitě normálně zastávala např. Klubovna. Infrastruktura nebude vytvořená znova od základů, ale bude se snažit využívat a upravovat open-source software tam kde to bude možné.
+
+
+
+
+
+
+
+Dočasná zóna je platformou a systémem pro kritickou spolupráci na projektech kde není cílem peňežní zisk, ale především aktivismus, případně radost.
+
+Cílem práce bude:
+
+- Vytvořit komunitu dočasná zóna
+- Definování důvodů pro vznik dočasné zóny
+- Definování pravidel, zásad a systémů práce v rámci komunity
+- Neustálá analýza potřeb komunity
+- Zajištění infrastruktury nutné pro fungování komunity
+- Dokumentace vývoje komunity
+- Definice komunikační strategie komunity a prezentace jejich projektů
+- Prezentace dočasné zóny na veřejnosti
+
+Tato diplomová práce se nebude přímo týkat projektů a aktivit které komunita bude řešit, ale autorova práce/spolupráce v rámci komunity je podstatnou složkou této diplomové práce.
+
+Forma, rozsah, technologický popis práce:
+
+Forma a rozsah diplomové práce bude vycházet z potřeb dočasné zóny.
+
+Předpokládám že vznikne následující:
+
+- Pravidel a principy na kterých bude dočasná zóna založena
+- Infrastruktura potřebná k fungování dočasné zóny
+- Komunikační strategie dočasné zóny
+- Dokumenty prezentujicí projekty dočasné zóny
+- Výstupní dokument mapující vývoj dočasné zóny a projekty které podnikla
+- Veřejný event/prezentace dočasné zóny a důvodů jejího vzniku
+
+
+
+
+
+
+
+
+
+Nová sociální síť. 
+
+

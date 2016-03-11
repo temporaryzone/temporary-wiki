@@ -1,0 +1,130 @@
+Patrick Cariou versus Richard Prince: Problems with Appropriation
+
+Conner, Jill, Afterimage
+
+
+"We're not here to capture an image, we're here to maintain one. ... Can you feel it, Jack? An accumulation of nameless energies." 
+There was an extended silence. The man in the booth sold postcards and slides. 
+"Being here is a kind of spiritual surrender. We see only what others see. The thousands who were here in the past, those who will come in the future. We've agreed to be part of a collective perception. This literally colors our vision. A religious experience in a way, like all tourism." 
+Another silence ensued. 
+"They are taking pictures of taking pictures," he said. (1) 
+On March 18, 2011, United States District Court Judge Deborah A. Batts found Richard Prince, Larry Gagosian, and the Gagosian Gallery guilty of copyright infringement against photographer Patrick Cariou. In 2000, Cariou published Yes Rasta, a book of documentary photographs that depict portraits and scenes from the Rastafarian society located in the hills of Jamaica, a community that lives remotely from our contemporary post-industrialized world. In 2005, Prince bought a copy of Cariou's book in St. Bart's and in 2008 presented an exhibition of new paintings titled "Canal Zone" at the Gagosian Gallery. Each painting directly quotes Cariou's photographs, with only minimal changes made to each image. (2) In her ruling, Judge Batts denied Prince and Gagosian's defense of fair use and wrote: "Prince's paintings arc transformative only to the extent that they comment on the photos; to the extent they merely recast, transform, or adapt the photos, Prince's paintings are instead infringing on derivative works." (3) Moreover, Judge Batts noted: 
+  Prince testified that he doesn't "really have a message" he attempts
+  to communicate when making art. ... In creating the paintings, Prince
+  did not intend to comment on any aspects of the original works or on
+  the broader culture. ... Prince's own testimony shows that his intent
+  was not transformative within the meaning of Section 107, though
+  Prince intended his overall work to be creative and new. (4)
+Within ten days of the ruling, Prince and Gagosian were ordered to surrender all documents relating to the "Canal Zone" series and to notify collectors who had purchased the paintings that the work infringed on the copyright of Cariou's photographs and could not legally be exhibited. (5) 
+[ILLUSTRATION OMITTED] 
+With respect to the genre of documentary photography, Prince and Gagosian "assert[ed] that Cariou's [p]hotos are mere compilations of facts concerning Rastafarians and the Jamaican landscape, arranged with minimum creativity in a manner typical of their genre, and that the photos are therefore" not protected under copyright law, suggesting that Cariou's photographs were part of the public domain, where common facts do not require specific attributions because they are common knowledge. (6) In so doing, Prince and Gagosian made a devastating claim against the documentary genre. The case not only brought the validity of appropriation art into question, but quickly became emblematic of the long-standing divide between photographers and painters. 
+Since the 1980s, the success of contemporary art has largely hinged upon how well artists could appropriate images from other sources. Elizabeth Peyton, for example, made paintings based not only upon her own photographs, but also those found in mass-print magazines and newspapers. Eve Sussman's 89 Seconds at Alcazar (2004) debuted at the 2004 Whitney Biennial and reconstructed the moments before and after the famous scene captured in Diego Velazquez's painting Las Meninas (1656). Takashi Murakami rearticulated Japanese cartoons that were highly popular in America during the 1980s, while Jeff Koons and Urs Fischer fabricated representations of everyday objects on a monumental scale. 
+Since appropriation is strongly connected to trends in the consumer market, its potential demise serves as a harbinger for contemporary art. … 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cariou v. Prince, 714 F. 3d 694 (2d Cir. 2013) is a copyright case in the United States Second Circuit Court of Appeals, on the question of whether artist Richard Prince's appropriation art treatment of Patrick Cariou's photographs was a copyright infringement or a fair use. The Second Circuit held in 2013 that Prince's appropriation art could constitute fair use, and that a number of his works were transformative fair uses of Cariou's photographs.[1] The Court remanded to the District Court for reconsideration of 5 of Prince's works, the Supreme Court denied cert., and the case settled in 2014.[1]
+
+Contents
+ •	1 Background
+ •	2 Findings
+ •	3 Notes
+ •	4 Further reading
+
+Answer one question and help us improve Wikipedia.
+
+
+
+Survey data handled by a third party. Privacy.
+Background
+Photographer Patrick Cariou published in 2000 Yes, Rasta a book of photographs of the rastafarian community in Jamaica.[1] Richard Prince in 2008 created "Canal Zone", a series of art works incorporating Cariou's photographs.[1] Prince's works involved copying the original photographs, and engaging in a variety of transformations. These included printing them, increasing them in size, blurring or sharpening, adding content (sometimes in color), and sometimes compositing multiple photographs or photographs with other works.[1] Prince exhibited his collection at Gagosian Gallery as appropriation art.
+In 2009, Cariou filed a copyright infringement suit against Richard Prince, as well as Gagosian Gallery, Larry Gagosian (the founder and owner of the gallery), and Rizzoli (which printed the exhibit catalog).[1]
+Findings
+The Southern District of New York (SDNY), in March 2011, held that Prince's works were infringing.[2] At that point, the Cariou v. Prince case received significant attention, because the SDNY ordered that Prince's unsold works, and Rizzoli's catalogs, be impounded and destroyed.[1] The SDNY in found that the works were not transformative, in part because Richard Prince did not claim to be "commenting upon" the original works.[2]
+Prince, whose works often sell in galleries for many thousands of dollars, appealed to the Second Circuit. The case was of high interest to the art world, which largely favored Prince's position,[3] and to the photographic community, which largely favored Cariou's position.
+In April 2013, the Second Circuit reversed the SDNY's decision, finding that most of Prince's works were indeed "transformative" to a "reasonable observer" and therefore fair use.[4] In particular, the Court found that the lower court erred in requiring that the appropriating artist claim to be commenting on the original work, and found works to be transformative if they presented a new aesthetic.[4] The court found 25 of 30 works to be transformative fair use under its standard, and remanded the case to the lower court for reconsideration of 5 of the works under the Second Circuit's new standard.[4]
+On March 18, 2014, Cariou and Prince announced that they had settled the case.[1]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Young artists who came of age in the early 1970s were greeted by an America suffused with disillusionment from dashed hopes for political and social transformation to the continuation of the Vietnam War and the looming Watergate crisis. The utopian promise of the counterculture had devolved into a commercialized pastiche of rebellious stances prepackaged for consumption, and the national mood was one of catatonic shell-shock in response to wildly accelerated historical change, from the sexual revolution to race riots and assassinations. Similarly, the elder generation of artists seemed to have both dramatically expanded the field of what was possible in the field of art while staking out its every last claim, either by dematerializing the aesthetic object entirely into the realm of pure idea or linguistic proposition as in Conceptualism, or by rivaling the cataclysmic processes and sublime vistas of the natural world itself as did the so-called earthworks artists such as Robert Smithson, who died in 1973.
+
+
+The national mood was one of catatonic shell-shock in response to wildly accelerated historical change, from the sexual revolution to race riots and assassinations. 
+Related
+
+Timelines (1)
+Primary Thematic Essays (4)
+Other Thematic Essays (20)
+Maps (1)
+Index Terms (29)
+
+Share
+
+What these fledgling artists did have fully to themselves was the sea of images into which they were born—the media culture of movies and television, popular music, and magazines that to them constituted a sort of fifth element or a prevailing kind of weather. Their relationship to such material was productively schizophrenic: while they were first and foremost consumers, they also learned to adopt a cool, critical attitude toward the very same mechanisms of seduction and desire that played upon them from the highly influential writings of French philosophers and cultural critics such as Michel Foucault, Roland Barthes, and Julia Kristeva that were just beginning to be made available in translation. Among these thinkers' central ideas was that identity was not organic and innate, but manufactured and learned through highly refined social constructions of gender, race, sexuality, and citizenship. These constructions were embedded within society's institutions and achieved their effects through the myriad expressions of the mass media. Barthes infamously extended this concept to question the very possibility of originality and authenticity in his 1967 manifesto "The Death of the Author," in which he stated that any text (or image), rather than emitting a fixed meaning from a singular voice, was but a tissue of quotations that were themselves references to yet other texts, and so on.
+
+
+The famous last line of Barthes' essay, that "the birth of the reader must be at the cost of the death of the author," was a call to arms for the loosely knit group of artists working in photography, film, video, and performance that would become known as the "Pictures" generation, named for an important exhibition of their work held at Artist's Space in New York in 1977. The show featured 45-rpm records and projected short films by the California artist Jack Goldstein, who sampled and looped canned sound effects or film snippets that triggered Pavlovian responses of fear and dread in the imagination of the viewer. Slightly later, Richard Prince zoomed in on what he termed "social science fiction," the hyperreal space depicted in countless advertisements featuring gleaming luxury goods and robotic models. Cindy Sherman and Laurie Simmons worked at the intersection of personal and collective memory, rummaging through the throwaway products of their youth—from B-movies to dollhouses that served as training manuals for who and how to be—in search of moments that both never existed yet were indelibly stamped in the mind. The image-scavengering of these artists was not restricted to the child's play of popular culture: Louise Lawler stalked the corridors of power in search of hidden treasure, while Sherrie Levine shot over the shoulders of photography's founding fathers not as a dry Duchampian gesture, but in order to create something akin to musical overtones—a buzzing in the space between their "original" and her "copy" that effaced the distance between objective document and subjective desire.
+
+Douglas Eklund
+Department of Photographs, The Metropolitan Museum of Art

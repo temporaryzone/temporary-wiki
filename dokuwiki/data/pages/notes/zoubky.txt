@@ -1,0 +1,30 @@
+detskezoubky.cz
+
+FTP PRISTUP:
+------------
+Hostitel: detskezoubky.cz
+Login: detskezoub
+Heslo: FQfPfMsuNp
+
+Databáze: detskezowp
+Hostitel: uvdb23.active24.cz
+Login: detskezowp
+Heslo: qMwt4VQ2CV
+
+
+
+edentordinace.cz
+FTP PRISTUP:
+------------
+Hostitel: edentordinace.cz
+Login: edentordin
+Heslo: FGv6mHKTnW
+
+Pro virtuální server „edentordinace.cz“ byla zřízena nová databáze:
+Databáze: edentordwp
+Hostitel: uvdb23.active24.cz
+Login: edentordwp
+Heslo: cfY0Xf6SSY
+
+
+

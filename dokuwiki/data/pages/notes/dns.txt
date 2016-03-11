@@ -1,0 +1,8 @@
+TXT
+krisa.cz
+60 min
+v=msv1 t=953617b804908eb934c2c81c129f06
+TXT
+krisa.cz
+60 min
+v=spf1 include:hotmail.com ~all
