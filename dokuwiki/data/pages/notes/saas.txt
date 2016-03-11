@@ -1,0 +1,8 @@
+Which CDN to use for renting webfonts (data saas)?
+
+I want to create little service for renting webfonts. I got designer friends who made some typefaces and i am looking for some efficient way how to rent them (similar to typekit).
+My idea is that the users pay some fixed amount for the license of the font plus they will pay for bandwidth depending on the usage.
+This is small thing that might grow but we definetly wont host the fonts ourselves.
+So my idea is to use CDN. Webfonts are just simple static files. But i need CDN that will allow me to separate each client so i can bill them separately for their usage. I would gladly offload this completely on the cdn (including billing of the bandwidth) but i need to stay in control of the files. 
+Will any CDN like maxCDN or cachefly with their API do?
+thanks

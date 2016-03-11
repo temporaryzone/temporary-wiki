@@ -1,0 +1,4 @@
+
+Výbor souvisejících textů a soubor prezentací k přednáškám najdete zde: http://plant.ffa.vutbr.cz/~qvmagid/teorie_a_umeni_ve_20_stoleti_II/
+login: student
+heslo: tau_ZS_2015

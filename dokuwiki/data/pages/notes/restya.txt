@@ -1,0 +1,5 @@
+ POSTGRES_DBHOST=localhost
+        POSTGRES_DBNAME=restyaboard
+        POSTGRES_DBUSER=restya
+        POSTGRES_DBPASS=hjVl2!rGd
+        POSTGRES_DBPORT=5432

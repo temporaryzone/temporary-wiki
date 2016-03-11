@@ -1,0 +1,56 @@
+For example, if you're using Nginx, you can stop it by running this command:
+ •	sudo service nginx stop
+If you're not sure if port 80 is in use, you can run this command:
+netstat -na | grep ':80.*LISTEN'
+netstat -ntlp | grep LISTEN
+
+nano /etc/ssh/sshd_config
+
+
+synapse:
+cd ~/.synapse
+source ./bin/activate
+synctl start
+
+
+Lets encrypt
+https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04
+
+cd /opt/letsencrypt
+./letsencrypt-auto certonly --standalone
+
+
+SSH
+ssh config (permit root a allowusers)
+/etc/ssh/sshd_config
+
+
+
+PERMISIONS!
+
+Chown
+sudo chown -R [USER NAME]:[USER NAME] /var/www
+
+www-data chown
+sudo chown -R www-data:www-data /var/www
+
+Setting the permissions
+Next we make the document root group-writable, but we’ll also want to set the “setgid” permission on the document root directory itself. The setgid permission will ensure that new files created in the document root will inherit the group ID from their parent directory.
+
+
+The Ubuntu and Debian versions of the commands would be:
+sudo chmod -R g+w /var/www
+sudo chmod g+s /var/www
+
+
+
+
+
+Locale 
+sudo locale-gen "en_US.UTF-8"
+nano /etc/environment
+LC_ALL=en_US.UTF-8
+LANG=en_US.UTF-8
+
+
+

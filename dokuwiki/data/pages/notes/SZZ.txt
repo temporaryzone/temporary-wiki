@@ -1,0 +1,104 @@
+Připomínám, že materiály k jednotlivým státnicovým otázkám jsou dostupné už teď na úřední desce KTDU http://ktdu.ffa.vutbr.cz/deska.php
+login student
+heslo ktdumgaszz
+
+
+
+Dobrý den,
+
+mám ještě pár dotazů, protože některé věci nemohu rozklíčovat. Jsem si naprosto vědom toho zmatku toho, že ten text nikam nevede.
+
+Měl jsem koncept - Vzít některé odlišné pohledy na reprezentaci několika lidí z oboru grafického designu a poté je porovnat/navázat na teorie Hito Steyerl která se zabýva reprezentací a taky se podívat jak se k tomu pojí estetika postinternetu (která je teď prominentní i v GD a ta hranice co je grafický design a co je postinternetové umění se tam smazává - je to moment kdy se grafický design přibližuje umění více než kde jinde). 
+
+Zaprvé jsem očekával, že postupně najdu něco zajímavého a něco rozklíčuju. To bylo ode mě dost naiviní, když nejsem teoretik, sám si to nedokážu urovnat, takže ze zápasení reprezentace, se stává zápasení Kristiana s reprezentací.
+
+
+Zadruhé začínám si uvědomovat, že i ti autoři které zmiňuji jsou ve svých názorech nejistí - obzvlášť designéři.
+Viz. citace Theo van Doesburga 
+
+Ta citace je přímo z manifestu Experimental Jetset ( v tom texu je to špatně označené), takže ExJet mixují tu Doesburgovu teorii o zobrazujícím umění a reprezentací ve smyslu zastupování. Ve chvíli kdy mi napíšete, že jsou to dvě jiné věci, tak mě osobně teď dělá problém najít si svoji pozici - tedyjestli věřím vám nebo jim.
+
+
+Zatřetí, některé vítky které jste mi napsal, že chápu špatně (hlavně u hito)- já rozumím té angličtině a pochopil jsem ten text, jenže nerozumím tomu, proč si to vlastně myslí a tak jsem naznal, že to doslovně nemyslí a začal hledat jiný význam.
+Nechápu k čemu se snaží Hito dostat, přesně tou větou:
+... And this is precisely my point: if identification is to go anywhere, it has to be with this material aspect of the image, with the image as thing, not as representation. ...
+Ten text se snaží jít do extrému a říct, že se identifikujeme s tím materiálem tzn. tím JPEGEM. Jenže to přece vůbec nedává smysl. Chápu, že je to nějaký další krok, tedy napřed mám věc, pak její reprezentaci a pak materiál kterým je ta reprezentace realizována. Pokud se Hito snaží bořit toto rozdělení, tak mi nejde do hlavy, za jakým účelem to dělá. Podle mě se lidi neztotožňují s JPEGEM, i přes to, že se ztotožňují s reprezentací. Nebo se copak ztotožňujeme s JPEGem? Asi mi zde tedy pořád něco uchází.
+
+
+
+"Když se podívám na uvedenou vygooglenou definici spekulativního designu, tak mi to dává smysl, zatímco ve vašem textu tápu. 
+Spekulativní design zjevně není o spekulování o tom, jak bude vypadat design, ale o spekulování o tom, jak bude vypadat budoucnosti, jak bude budoucnost tvarovaná technologiemi, které ještě neznáme, ale můžeme si je zkusit představit... Proto ta vazba na výzkum, na vědu. V případě Metahaven je to systematický zájem o internet a výzkum internetu je pak propojený s estetikou, která není ani tak "futuristická", jako spíš "zakotvená" (v tom zkoumaném materiálu)"
+
+Část o spekulativním designu - tam to právě předělávám. A nevím jestli se o tom rozepisovat - toto by mohlo být součást eseje:
+
+ Snažím se totiž objasnit, že ta definice z googlu kterou píšete, se týka průmyslového designu (je to v jedné poznámce pod čarou kterou tam mám, akorát to není u sebe). Ta definice se těžko aplikuje na grafický design. Respektive - spekulativní design podle mě právě JE spekulování o tom jak bude vypadat design budoucnosti, ale díky tomu si designer může a musí klást otázky o tom jak bude vypadat budoucnost společnosti, aniž by musel zdůvodňovat proč to dělá. Je to utopie, designér se snaží přijít na řešení zítřka, ale podstata není ten výsledek, nýbrž to co nám ten výsledek odhalí. Dnes je spekulativní design většinou angažovaná kritika. Tedy design kombinézy pro bezdomovce, která nám tím, jaké se snaží vyřešit problémy, ukazuje jaké problémy mají bezdomovci (nebo budou budou mít za 50 let až se třeba bude platit jen elektronickými penězy). Nebo telefon, který bude modulární a lehce spravitelný, který tím ukazuje na nesmyslnost a plýtvání pravidelného upgradovaní smartphonu každe dva roky.
+
+Aplikovat tuto definici na grafický design snad nejde. Grafický design totiž nemá produkt, respektive pokud se podíváme na produkty grafických designérů, tak to jsou převážně nějaké ziny/knihy na určité téma, kde jsou v roli autorů obsahu. Takže pokud chcete dělat grafický design budoucnosti, tak musíte mít obsah budoucnosti. Jediná podobnost se spekulativním produktovým designem, může nastat ve chvíli, kdy by grafický designer dělal nové logo firmu spojenou z firem nestle a unilever a tím chtěl ukázat na to, že se už prakticky nedají koupit produkty od jiných firem než těchto dvou. Nebo kdyby se grafický designér snažil udělat interface ke sledování globálního oteplování ve světě a tím na něj ukázat.
+
+Současní grafičtí designéři, kteří jsou označování jako spekulativní, tako nepracují. A jelikož je termín spekulativní tak moc široký, tak se tak začali označovat grafičtí kteří jsou těžce zařaditelní, ale ta návaznost na spekulativní design v průmyslu tam podle mě není a dokážu to rozklíčovat (už jsem si to udělal).
+
+Troufám si říct, že spekulativní grafický design v podstatě neexistuje a jedná se buď o silně technologické designéry, nebo o angažované designéry kteří dělají výzkum. Ale vše se týka současnosti a hlavně jdená se o faktický výzkum. Viz metahaven. Metahaven podle mě nejsou spekulativní designéři.
+
+
+Nevím, jak to mám zakončit. Jestli se mám pokoušet o tu návaznost na postinternetové umění a nebo popsat spekulativní grafický design víc do detailu. Nechtěl jsem aby to bylo hlavně o designu, to byl jen vstupní bod, ale na druhou stanu mi to taky příjde zajímavé a prostě jsem designér.
+
+Štve mě nejasnost pojmů jako spekulativní grafický design nebo postinternetové umění a následující armády designéru a umělců, kteří jen naskakují na trend a jen přejímají estetiku.
+
+
+Děkuji za případnou odpověď.
+
+Kristian Maňas
+
+
+jan zálešák 21 December 2015 at 18:27 
+Dobrý den, Kristiane,
+
+díky, že jste něco poslal, i když to je v podobě, v jaké to je... Snažil jsem přidat k textu nějaké postřehy a trochu jsem si zahrál se žlutěním v místech, kterým by slušely čárky.
+
+Důležitá prosba: příští verzi mi pošlete v nějakém textovém souboru, abych si to mohl otevřít ve Wordu nebo OpenOffice a v textu se šťourat tam. Je to větší zábava, když se některé věci dají rovnou opravovat, byť jen v režinu Sledování změn.
+
+Něco jsem k Hito napsal už v komentářích, ale tady ještě:
+
+... And this is precisely my point: if identification is to go anywhere, it has to be with this material aspect of the image, with the image as thing, not as representation. ...
+
+pokud se chci s někým identifikovat, můžu to udělat na rovině žité skutečnosti (můžu mluvit jako on/a, jíst to, co on/a, vypadat jako on/a...). dnes to funguje ale i jinak. můžeme se s někým identifikovat na rovině obrazu. máme moc, kterou před dvaceti lety lidi neměli. můžeme svobodně vysílat do světa obrazy sebe sama... uděláme selfie a dáme ho na twitter nebo instagram jak nic. základem identity a identifikace dnes je, že všechno je nakonec JPEG. a JPEG samozřejmě není mentální obraz (image, jak se běžně chápe), je to materiální realita, byť jen režimu jedniček a nul...
+Ten jazyk, který Seyerl používá, je záměrně matoucí, boří záměrně tu hranici, která by měla "image" držet ve sféře imateriálního, a spojuje pojem s "matérií" digitálního obrazu, na který je redukována (nebo rozšiřována???) veškerá realita.
+
+
+Ale ještě k Vašemu textu: Je to zatím víceméně nekorigovaný proud vědomí. Za mě ok. Nechci Vás nutit do nějaké pevné, akademické struktury textu; na druhou stranu je dobré mít pořád na paměti, odkud kam se chcete dostat - je to trochu ochrana před bezbřehostí. Tak jsem zvědav na verzi B :)
+
+Až přijde na citování, pokud nemáte nějakou bibliografickou normu vyloženě zažitou z psaní bakalářky, tak se prosím nechte inspirovat tady tou:
+http://vvp.avu.cz/sesit/pro-autory/
+
+Díky za obrázek)) 
+I Vám hezké Vánoce!
+
+jz
+
+
+---------- Původní zpráva ---------- Od: Krisa <krisa@krisa.cz> Komu: jan zálešák <jan.zalesak@post.cz> Datum: 20. 12. 2015 23:33:21 Předmět: Mess SZZ
+
+Krisa 20 December 2015 at 23:26 
+Dobrý den!
+
+Ufff,
+
+chtěl jsem to mít teď už celé hotové (protože bavit se o části je blbost), ale mám možná tak zmatenou půlku. Hito Steyerl mi dává zabrat, některý její eseje se mi zdají pokažde když je přečtu, že znamenají něco jiného. Na druhou stranu jsem si srovnal už několik topicu kde jsem si nebyl jistej. Jen to bolí.
+
+Posílam nezkorekturovanej žhanoucí zmatek. Abyste věděl, že se něco děje.
+
+Mám obzvlášť potíž s touto esejí http://www.e-flux.com/journal/a-thing-like-you-and-me/ havně proto, že si nejsem jistej co pro ní znamená slovo image. Zdá se mi jako by každej druhej odstavec byl protichůdnej.
+
+Na druhou stranu jsem zjistil, že to docela miluju.
+
+
+
+
+
+
+Vesele vánoce
+-- 
+
+
+-- 
+KRIS

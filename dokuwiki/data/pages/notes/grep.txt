@@ -1,0 +1,1 @@
+Do pole Hledat: zadáte "(\<[szkvaiouSZKVAIOU])[ ]+" (bez uvozovek) a pak do pole Zaměnit na: "$1~S" (bez uvozovek).
