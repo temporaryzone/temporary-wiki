@@ -1,0 +1,26 @@
+====== Temporary zone ======
+
+Vítej na dočasném záchodě! Smyslem této wiki je nám dát pevný prostor, kde můžeme sourkomě sdílet úplně všechno. Máme tedy tři místa - kiki, záchod a matrix. Matrix určitě zůstane, kiki asi taky.. otázka je jestli budeme používat záchod nebo ne, protože podobnou funkci by mohla splnit kiki. Každopádně si na to udělejte názor a uvídíme.
+
+Pokud jsi nikdy nedělal wiki, je to fakt jednoduchý. Každá stránka má svoje ID což je její jméno. Každou stránku můžete editovat napravo pomocí edit this page. K prolinkování stačí id te stránky (název) obklopit dvěma hranatýma závorkama. Pro tuhle stránku by to bylo [[start]]. Je tam na to taky tlačítko (internal link). Doporučuju editnout tuto stránku a podívat se. Více o tom co se dá dat do stránky je zde [[wiki:syntax]]. 
+
+Základní pravidlo, interní link je zelenej [[start]], externí (na jinej web) je [[http://the-book-design.tumblr.com/| modrej]]  a pokud je něco červeného tak je to stránka která neexistuje [[rap]] a vyzívá k vytvoření.
+
+Napravo nahoře je **media manager**, kde jsou všechny uploadovaný soubory a **sitemap kde jsou všechny stránky** aby se člověk neztratil.
+
+Jedinej další koncept kterej je dobrý znát jsou namespaces - je to stejný jako složky v počítači. Do složky se dá dostat pomocí dvojtečky. Příklad je předešlá [[wiki:syntax]] která je v složce wiki a dá se k ní dostat pomocí wiki:syntax. O namespaces více zde [[https://www.dokuwiki.org/namespaces]].
+ 
+
+To je vše. Je to superchytrý a jednoduchý. **Vše zachovává verze. Takže se nebojte přepisovat**. Starší verze jsou napravo v malém sloupečku (tam kde se edituje stránka) pod old revisions.
+
+Jdou přidávat aji obrázky :) 
+
+{{:listenhard.jpg?400|}}
+
+
+
+Dokonce jdou přidávat jednoduchý todo listy
+
+<todo>Test todo 1</todo>
+
+<todo @krisa>Test totod</todo>

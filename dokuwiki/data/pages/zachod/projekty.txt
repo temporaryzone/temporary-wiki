@@ -1,0 +1,14 @@
+Stránka kde bude záznam všech projektů na kterých tmp dělá a návrhy na možné další projekty:
+
+Aktuální projekty:
+
+[[projekty:kulturou_proti_chatrani|Kulturou proti chátrání]]
+
+[[projekty:terms_of_use|Terms of use]]
+
+
+Nápady na možné užitečné projekty (přidívejte):
+
+  * **The Guardian project** - [[https://guardianproject.info]] je to open-source projekt, kterej dělá hodně zajímavejch aplikací. Hledají designéry co by jim pomohli vylepšit design. Dělají například TOR klient na Android. Mohl bych je za nás do budoucna oslovit. @krisa
+
+  * **Design této wiki** - Tato wiki je sice funkční, ale mohla by být daleko lepší. Klidně bych do toho s někým šel, pokud by byl zájem - podle mě je to skvělá přiležitost pro hodně vyňuňanej ux/ui design. @krisa

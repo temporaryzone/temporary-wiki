@@ -1,0 +1,55 @@
+Tohle je sidebar.
+
+Edituje se tak, že se editne stránka [[sidebar|]] a dá se do něj přidávat všechno co uznáte za potřebný.
+
+
+----
+==== dočasná zóna ====
+
+[[tmp:texty:pravidla| Pravidla]]
+
+[[tmp:popis| Popis]]
+
+[[tmp:manifest| Manifest?]]
+
+[[tmp:design| Design?]]
+
+----
+
+==== Projekty ====
+
+[[projekty| Návrhy]] 
+
+[[projekty:kulturou_proti_chatrani|Kulturou proti chátrání]]
+
+[[projekty:terms_of_use|Terms of use]]
+
+
+----
+
+==== Zdroje ====
+
+[[zdroje:texty| Zásadní texty]]
+
+[[zdroje:soukromi:intro_do_internetu| Intro do internetu @krisa]]
+
+----
+
+
+=== Krisa ===
+
+[[krisa:diplomka| Diplomka psaní živě]]
+
+Test posty:
+
+[[krisa:texty:smrt_autora |Smrt autora]]
+
+[[krisa:texty:graficke_designerstvi_a_reprezentace| Grafické designérství a reprezentace]]
+
+----
+
+[[todo| Všechny todo]]
+
+----
+
+Testovací galerie: [[inspirace:galerie]]

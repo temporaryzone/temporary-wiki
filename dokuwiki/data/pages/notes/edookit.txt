@@ -1,6 +1,0 @@
-user: edookit
-password: jakub
-
-
-code.kvetoslavbartos.cz/edookit
-

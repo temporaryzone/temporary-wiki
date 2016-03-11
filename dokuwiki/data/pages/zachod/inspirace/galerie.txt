@@ -1,0 +1,3 @@
+Testovací galerie s obrázkama GD aby se otestovala galerie
+
+{{gallery>:inspirace}}

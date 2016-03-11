@@ -1,0 +1,48 @@
+====== Intro do problematiky intenretu ======
+
+<WRAP center round info 60%>
+Work in progress
+</WRAP>
+
+
+
+<columns 100% 50%>
+
+Témata
+  * Big data
+  * Bitcoin a blockchain
+  * Open-source
+  * TOR
+  * Decentralizace
+  * Šifrování
+
+<newcolumn>
+
+Důležití lidé
+Teoretici a programářoři
+
+  * Bruce Schneier
+  * Eben Moglen
+  * Paul Rosenberg
+  * Evgeny Morozov
+  * Jacob Appelbaum 
+
+</columns>
+
+<columns 100% 50%>
+Příběhy
+  * Julian Assange
+  * Edward Snowden
+  * Chelsea Manning
+  * Aaron Schwartz
+  * Kim Dot Com
+
+  * Anonymous
+
+<newcolumn>
+Instituce
+  * Electronic Frontier Foundation
+  * The Guardian Project
+  * Open Whisper systems
+
+</columns>

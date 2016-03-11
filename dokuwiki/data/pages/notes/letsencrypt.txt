@@ -1,2 +1,0 @@
-/etc/letsencrypt/live/temporary.zone/fullchain.pem. Your cert will
-   expire on 2016-05-08. To obtain a new version of the certificate in

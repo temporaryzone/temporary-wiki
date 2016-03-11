@@ -1,0 +1,30 @@
+{
+  "name": "KrisaMozek",
+  "version": "0.0.1",
+  "description": "Web mozku krisé",
+  "main": "",
+  "author": "Florian Karsten",
+  "homepage": "http://www.krisa.cz",
+  "scripts": {
+    "test": "jak pustit testy ---> netestujem"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "browser-sync": "^2.11.1",
+    "cssnano": "^3.5.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect-php": "0.0.7",
+    "gulp-debug": "^2.1.2",
+    "gulp-postcss": "^6.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-util": "^3.0.7",
+    "lost": "^6.7.2",
+    "postcss": "^5.0.16",
+    "postcss-cssnext": "^2.4.0",
+  }
+}

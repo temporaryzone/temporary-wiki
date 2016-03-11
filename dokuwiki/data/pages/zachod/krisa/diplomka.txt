@@ -1,0 +1,5 @@
+====== Diplomová práce - dočasná zóna ======
+
+Toto je kořenová složka která odkazuje na různé dokumenty mojí diplomky.
+
+Mám v plánu jí psát "živě" tady na wikipedii.

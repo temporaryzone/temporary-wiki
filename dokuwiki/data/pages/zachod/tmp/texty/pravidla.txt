@@ -1,0 +1,40 @@
+====== Dočasná zóna (temporary.zone) ======
+
+===== Pravidla =====
+
+  * Pravidla se mohou měnit a vyvíjet, ale jen se souhlasem všech členů DZ.
+  * Veškeré interní dění a komunikace na dočasné zóně je privátní, pokud-li není odsouhlaseno jinak všemy členy DZ.
+
+===== Členi =====
+
+  * Nový člen musí být schválen všemi stávajícími členy DZ, každý stavající člen má tedy právo vetovat.
+  * Každý člen může kdykoliv vystoupit z DZ.
+  * Člen může být vyhozen z DZ jen po souhlasu všech členů DZ.
+  * Anonymita člena musí být zachována, pokud si to tak přeje a naopak musí mu být umožněno prezentovat se jako člen DZ, pokud si to přeje.
+  * Všichni členi jsou si rovni.
+
+===== Hosti =====
+
+Dočasný typ člena, jemuž jsou poskytnuty informace 
+o projektu jenž se ho týká.
+
+===== Projekty =====
+
+  * Existuje seznam všech aktuálních i minulých projektů.
+  * Všichni členi musí souhlasit s novým projektem. Tedy každý člen může vetovat jakýkoliv projekt.
+  * Každý člen si vybírá na kterém projektu se bude podílet a nemusí se podílet na všech projektech.
+  * Každý projekt má začátek (tedy důvod), střed (tedy proces) a konec (tedy shrnutí). Všechny tři části by měli být zdokumentovány tak jak bude nejvhodnější. Každý projekt by měl mít textový výstup.
+  * Každý projekt by měl mít administrátora, jehož funkcí není rozhodovat nebo mít poslední slovo, nýbrž zajišťovat administraci a pokusit se dostat k co nejlepšímu výslednému konci.
+
+
+----
+
+
+PDF verze: {{:tmp:docasnazona1.pdf|}}
+
+<WRAP center round info 60%>
+Tenhle dokument klidně opravujte a vylepšujte. Změna významu se musí projednat.
+</WRAP>
+
+
+
