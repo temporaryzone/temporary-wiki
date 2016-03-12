@@ -16,6 +16,9 @@
 		<array>
 			<string>sidebar.txt</string>
 		</array>
+		<array>
+			<string>start.txt</string>
+		</array>
 	</array>
 </dict>
 </plist>

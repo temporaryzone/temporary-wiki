@@ -52,5 +52,20 @@ nano /etc/environment
 LC_ALL=en_US.UTF-8
 LANG=en_US.UTF-8
 
+Internal IP
+ip route get 8.8.8.8 | awk '{print $NF; exit}'
 
+External IP
+dig +short myip.opendns.com @resolver1.opendns.com
+
+
+
+MYSQL
+create user
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+
+grant privis
+GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
+
+FLUSH PRIVILEGES;
 

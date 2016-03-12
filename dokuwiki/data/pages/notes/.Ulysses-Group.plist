@@ -7,16 +7,10 @@
 	<key>sheetClusters</key>
 	<array>
 		<array>
-			<string>040hosting temporaryzone.txt</string>
+			<string>040hosting_temporaryzone.txt</string>
 		</array>
 		<array>
-			<string>AI - Wolfram.txt</string>
-		</array>
-		<array>
-			<string>Amster maca.txt</string>
-		</array>
-		<array>
-			<string>bitcoin wal.txt</string>
+			<string>AI-Wolfram.txt</string>
 		</array>
 		<array>
 			<string>bitcoin.txt</string>
@@ -25,31 +19,13 @@
 			<string>check.txt</string>
 		</array>
 		<array>
-			<string>chyby SOK.txt</string>
-		</array>
-		<array>
-			<string>Conye 2013 video.txt</string>
-		</array>
-		<array>
-			<string>critical graphic design.txt</string>
-		</array>
-		<array>
 			<string>cyberspace.txt</string>
 		</array>
 		<array>
 			<string>Deleuze.txt</string>
 		</array>
 		<array>
-			<string>DNS zaloha.txt</string>
-		</array>
-		<array>
 			<string>dns.txt</string>
-		</array>
-		<array>
-			<string>Do your bestm.txt</string>
-		</array>
-		<array>
-			<string>dočasná zóna.txt</string>
 		</array>
 		<array>
 			<string>dump.txt</string>
@@ -64,31 +40,16 @@
 			<string>eduroam.txt</string>
 		</array>
 		<array>
-			<string>Facebook alternativa.txt</string>
-		</array>
-		<array>
 			<string>grav.txt</string>
 		</array>
 		<array>
 			<string>grep.txt</string>
 		</array>
 		<array>
-			<string>Hands on urbanism.txt</string>
-		</array>
-		<array>
-			<string>historie hackovani.txt</string>
-		</array>
-		<array>
 			<string>Hyperrealita.txt</string>
 		</array>
 		<array>
-			<string>Industra STAGE.txt</string>
-		</array>
-		<array>
 			<string>IPcka.txt</string>
-		</array>
-		<array>
-			<string>kalendar favu.txt</string>
 		</array>
 		<array>
 			<string>kikegard.txt</string>
@@ -97,22 +58,10 @@
 			<string>Koma.txt</string>
 		</array>
 		<array>
-			<string>Leap motion - kriticka pouzitlenost.txt</string>
-		</array>
-		<array>
 			<string>letsencrypt.txt</string>
 		</array>
 		<array>
 			<string>linux.txt</string>
-		</array>
-		<array>
-			<string>Magid - Jazyk.txt</string>
-		</array>
-		<array>
-			<string>Magid - prace.txt</string>
-		</array>
-		<array>
-			<string>Magid 2 - Co je to osvicenství?.txt</string>
 		</array>
 		<array>
 			<string>Metahaven.txt</string>
@@ -121,19 +70,10 @@
 			<string>narozeniny.txt</string>
 		</array>
 		<array>
-			<string>O internetu.txt</string>
-		</array>
-		<array>
-			<string>Open source a diy ekonomika.txt</string>
-		</array>
-		<array>
 			<string>Postakapitalismus.txt</string>
 		</array>
 		<array>
 			<string>Princip.txt</string>
-		</array>
-		<array>
-			<string>Proc lidi chodi do galerie?.txt</string>
 		</array>
 		<array>
 			<string>Quotes.txt</string>
@@ -148,19 +88,7 @@
 			<string>saas.txt</string>
 		</array>
 		<array>
-			<string>Seminární práce.txt</string>
-		</array>
-		<array>
-			<string>sok napsat.txt</string>
-		</array>
-		<array>
 			<string>SOK.bz.txt</string>
-		</array>
-		<array>
-			<string>ssh .txt</string>
-		</array>
-		<array>
-			<string>statnice topics.txt</string>
 		</array>
 		<array>
 			<string>Statnice.txt</string>
@@ -181,16 +109,7 @@
 			<string>Terrorists.txt</string>
 		</array>
 		<array>
-			<string>The internet.txt</string>
-		</array>
-		<array>
 			<string>thea.txt</string>
-		</array>
-		<array>
-			<string>trapcode .txt</string>
-		</array>
-		<array>
-			<string>Vendula zaloha.txt</string>
 		</array>
 		<array>
 			<string>videa.txt</string>
@@ -202,22 +121,103 @@
 			<string>vutpin.txt</string>
 		</array>
 		<array>
-			<string>Vzdělávání je naopak.txt</string>
-		</array>
-		<array>
-			<string>Why suirvelence is not ok.txt</string>
-		</array>
-		<array>
 			<string>wondersharwe.txt</string>
-		</array>
-		<array>
-			<string>Workshop UX.txt</string>
 		</array>
 		<array>
 			<string>Zalesak.txt</string>
 		</array>
 		<array>
 			<string>zoubky.txt</string>
+		</array>
+		<array>
+			<string>Do_your_bestm.txt</string>
+		</array>
+		<array>
+			<string>Proc_lidi_chodi_do_galerie?.txt</string>
+		</array>
+		<array>
+			<string>Magid_-_Jazyk.txt</string>
+		</array>
+		<array>
+			<string>Open_source_a_diy_ekonomika.txt</string>
+		</array>
+		<array>
+			<string>dočasná_zóna.txt</string>
+		</array>
+		<array>
+			<string>historie_hackovani.txt</string>
+		</array>
+		<array>
+			<string>DNS_zaloha.txt</string>
+		</array>
+		<array>
+			<string>The_internet.txt</string>
+		</array>
+		<array>
+			<string>chyby_SOK.txt</string>
+		</array>
+		<array>
+			<string>Seminární_práce.txt</string>
+		</array>
+		<array>
+			<string>O_internetu.txt</string>
+		</array>
+		<array>
+			<string>Conye_2013_video.txt</string>
+		</array>
+		<array>
+			<string>Magid_2_-_Co_je_to_osvicenství?.txt</string>
+		</array>
+		<array>
+			<string>Hands_on_urbanism.txt</string>
+		</array>
+		<array>
+			<string>Leap_motion_-_kriticka_pouzitlenost.txt</string>
+		</array>
+		<array>
+			<string>statnice_topics.txt</string>
+		</array>
+		<array>
+			<string>Amster_maca.txt</string>
+		</array>
+		<array>
+			<string>Industra_STAGE.txt</string>
+		</array>
+		<array>
+			<string>kalendar_favu.txt</string>
+		</array>
+		<array>
+			<string>Magid_-_prace.txt</string>
+		</array>
+		<array>
+			<string>Vendula_zaloha.txt</string>
+		</array>
+		<array>
+			<string>ssh_.txt</string>
+		</array>
+		<array>
+			<string>bitcoin_wal.txt</string>
+		</array>
+		<array>
+			<string>sok_napsat.txt</string>
+		</array>
+		<array>
+			<string>trapcode_.txt</string>
+		</array>
+		<array>
+			<string>Workshop_UX.txt</string>
+		</array>
+		<array>
+			<string>Vzdělávání_je_naopak.txt</string>
+		</array>
+		<array>
+			<string>critical_graphic_design.txt</string>
+		</array>
+		<array>
+			<string>Why_suirvelence_is_not_ok.txt</string>
+		</array>
+		<array>
+			<string>Facebook_alternativa.txt</string>
 		</array>
 	</array>
 </dict>
