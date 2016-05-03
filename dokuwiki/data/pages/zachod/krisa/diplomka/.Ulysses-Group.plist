@@ -3,12 +3,58 @@
 <plist version="1.0">
 <dict>
 	<key>createMarkedFile</key>
-	<false/>
+	<integer>0</integer>
+	<key>resolutionData</key>
+	<dict>
+		<key>createMarkedFile</key>
+		<real>479419293</real>
+		<key>sheetClusters</key>
+		<dict>
+			<key>Open-source design.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>481408211.91623098</real>
+				<key>version</key>
+				<dict>
+					<key>ae53f5c4a27bb6ddae4538192675302ba7ca989bc9c0d76e3e280a3eef284065</key>
+					<integer>4</integer>
+				</dict>
+			</dict>
+			<key>start.txt</key>
+			<dict>
+				<key>lastModification</key>
+				<real>479419293</real>
+				<key>version</key>
+				<dict>
+					<key>legacy-479419293.000000</key>
+					<integer>1</integer>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
 	<key>sheetClusters</key>
 	<array>
 		<array>
 			<string>start.txt</string>
 		</array>
+		<array>
+			<string>Open-source design.md</string>
+		</array>
 	</array>
+	<key>storeFormatVersion</key>
+	<integer>1</integer>
+	<key>versioning</key>
+	<dict>
+		<key>createMarkedFile</key>
+		<dict>
+			<key>ae53f5c4a27bb6ddae4538192675302ba7ca989bc9c0d76e3e280a3eef284065</key>
+			<integer>1</integer>
+		</dict>
+		<key>sheetClusters</key>
+		<dict>
+			<key>ae53f5c4a27bb6ddae4538192675302ba7ca989bc9c0d76e3e280a3eef284065</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -1,0 +1,1214 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"rg",
+				"rgba	rgba()"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"bg",
+				"background-color"
+			],
+			[
+				"cons",
+				"console.log()"
+			],
+			[
+				"filterBy",
+				"filterBy	Kirby: $pages->filterBy()"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"do",
+				"document	Document"
+			],
+			[
+				"setTi",
+				"setTimeout(${0:func}, delay)	Window"
+			],
+			[
+				"frien",
+				"friendly_url"
+			],
+			[
+				"tablet",
+				"tabletH"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"fina",
+				"finalpostnum"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"al",
+				"align-self"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"ex",
+				"extend	@extend"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"compile",
+				"compilestatic"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"c",
+				"clearfix"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"cou",
+				"cursor"
+			],
+			[
+				"border-top",
+				"border-top-left-radius"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"tab",
+				"tab_height"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"dark",
+				"dark_grey"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"primary",
+				"primary-button"
+			],
+			[
+				"content-box",
+				"content-box_content"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "// kirby cms config - 19. 2. 2016\n\n\nvar gulp = require('gulp');\nvar autoprefixer = require('autoprefixer');\n// var watch = require('gulp-watch');\nvar browserSync = require('browser-sync');\nvar connect = require('gulp-connect-php');\nvar reload = browserSync.reload;\nvar cssnano = require('cssnano');\nvar postcss = require('gulp-postcss');\nvar cssnext = require(\"postcss-cssnext\");\nvar cssimport = require('postcss-import');\nvar lost = require('lost');\nvar doiuse = require('doiuse');\nvar precss = require('precss');\nvar print = require('gulp-print');\n var rename = require(\"gulp-rename\");\nvar reporter = require(\"postcss-reporter\");\nvar plumber = require(\"gulp-plumber\");\nvar gutil = require('gulp-util');\nvar notify = require(\"gulp-notify\");\n\n// CONFIG\nvar siteroot = 'dokuwiki';\nvar devroot = '';\nvar themename = 'temporary';\nvar themeroot = siteroot + '/lib/tpl/' + themename;\nvar processors = [\n		cssimport(),\n        precss(),\n        lost(),\n        cssnext({browsers: ['last 1 version']}),\n        reporter() \n    ];\nvar miniprocessors = [\n		cssimport(),\n        precss(),\n        lost(),\n        cssnext({browsers: ['last 1 version']}),\n        cssnano,\n        reporter()\n    ];\n\n\n\nvar _gulpsrc = gulp.src;\ngulp.src = function() {\n    return _gulpsrc.apply(gulp, arguments)\n    .pipe(plumber({\n        errorHandler: function(err) {\n            notify.onError({\n                title:    \"Gulp Error\",\n                message:  \"Error: <%= error.message %>\",\n                sound:    \"Bottle\"\n            })(err);\n            this.emit('end');\n        }\n    }));\n};\n\n// funkce co se pousti kdyz je eror v kompilaci gutil.beep() je zvuk, kdyztak vykomentovat\nvar onError = function (err) {  \n  gutil.beep();\n  console.log(err);\n};\n\n\ngulp.task('browser-sync', function() {\n    browserSync({\n      proxy: '127.0.0.1:5858',\n      port: 8080,\n      open: true,\n      browser: \"google chrome canary\",\n      notify: false\n    }, function (err, bs) {\n    	 if (err) { console.log(err); }\n		    if (!err) {\n		        console.log(\"BrowserSync is ready!\");\n		    }\n	});\n});\n\n\ngulp.task('bs-reload', function() {\n	reload();\n});\n\n\ngulp.task('connect', function(cb) {\n    connect.server({ base: siteroot, port: 8020, stdio: 'ignore'}, \n    function() {\n    	console.log('PHP server initialized, starting BrowserSync');\n    	cb();\n    });\n});\n\ngulp.task('css', function () {\n    return gulp.src('css/style.css')\n        .pipe(postcss(processors))\n        .pipe(gulp.dest(themeroot + '/css'))\n        .pipe(reload({stream:true}));\n});\n\n\ngulp.task('minicss', function () {\n    return gulp.src(themeroot + '/dev_css/style.css')\n    	.pipe(plumber())\n        .pipe(postcss(miniprocessors))\n   		.pipe(plumber.stop())\n        .pipe(gulp.dest(themeroot + '/css'))\n});\n\n\ngulp.task('default', ['browser-sync','css'], function () {\n	gulp.watch(['css/style.css'], ['css'], function() {  reload();  });\n});\n",
+			"file": "gulpfile.js",
+			"file_size": 2696,
+			"file_write_time": 131066608190000000,
+			"settings":
+			{
+				"buffer_size": 2889,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 305,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dokuwiki/lib/tpl/temporary/style.ini",
+			"settings":
+			{
+				"buffer_size": 3412,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/krisa/dev/tmp/package.json",
+			"settings":
+			{
+				"buffer_size": 765,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 398.0,
+		"last_filter": "format",
+		"selected_items":
+		[
+			[
+				"format",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimelinter",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"next err",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"lint mode",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"sublimeLinter sett",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"eslint",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"subline",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"bea",
+				"SassBeautify"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"sas",
+				"SassBeautify"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 473.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/krisa/sync/krisa_encrypted/wiki",
+		"/Users/krisa/sync/krisa_encrypted/wiki/css",
+		"/Users/krisa/sync/krisa_encrypted/wiki/dokuwiki/lib/tpl/temporary",
+		"/Users/krisa/sync/krisa_encrypted/wiki/dokuwiki/lib/tpl/temporary/css",
+		"/Users/krisa/sync/krisa_encrypted/wiki/dokuwiki/lib/tpl/temporary/css/fonts"
+	],
+	"file_history":
+	[
+		"/Users/krisa/dev/tmp/gulpfile.js",
+		"/Users/krisa/sync/krisa_encrypted/wiki/package.json",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#0/sok.floriankarsten.com",
+		"/Users/krisa/sync/krisa_encrypted/wiki/gulpfile.js",
+		"/Applications/MAMP/bin/php/php5.6.10/conf/php.ini",
+		"/Users/krisa/dump/open.md",
+		"/Users/krisa/sync/temporaryzone/01.home/home.md",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#0/home.md",
+		"/Users/krisa/dev/tmp/website/user/pages/01.home/home.md",
+		"/Users/krisa/dev/tmp/website/user/themes/temporary/temporary.yaml",
+		"/Users/krisa/dev/tmp/website/user/themes/temporary/blueprints/home.yaml",
+		"/Users/krisa/dev/tmp/Caddyfile",
+		"/Users/krisa/dev/tmp/website/user/themes/temporary/templates/partials/base.html.twig",
+		"/Users/krisa/dev/tmp/website/user/themes/temporary/blueprints/blog.yaml",
+		"/Users/krisa/dev/tmp/website/user/themes/temporary/blueprints.yaml",
+		"/Users/krisa/dev/tmp/website/user/themes/temporarytheme/antimatter.php",
+		"/Users/krisa/dev/tmp/website/themes/demo/theme.yaml",
+		"/Users/krisa/dev/tmp/website/user/themes/temporary/temporary.php",
+		"/Users/krisa/dev/tmp/website/themes/demo/content/stuff.md",
+		"/Users/krisa/dev/tmp/website/user/themes/temporary/dev_css/style.css",
+		"/Users/krisa/dev/tmp/website/user/themes/temporary/templates/default.html.twig",
+		"/Users/krisa/dev/tmp/website/user/themes/temporary/templates/home.html.twig",
+		"/Users/krisa/dev/tmp/website/user/themes/temporary/css/style.css",
+		"/Users/krisa/dev/tmp/website/user/themes/temporary/css/marx.css",
+		"/Users/krisa/dev_experiments/temporaryflux/css/app.css",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#0/header.php",
+		"/Users/krisa/dev/designreader_wp/search/index.php",
+		"/Users/krisa/dev/designreader_wp/wp/wp-content/themes/designreader/index.php",
+		"/Users/krisa/dev/designreader_wp/wp/wp-content/themes/designreader/block-nav-vue.php",
+		"/Users/krisa/dev/designreader_wp/wp/wp-content/themes/designreader/block-feed-vue.php",
+		"/Users/krisa/dev/designreader_wp/wp/wp-content/themes/designreader/article-block.php",
+		"/Users/krisa/dev/designreader_wp/static/app/js/main.js",
+		"/Users/krisa/dev/designreader_wp/wp/wp-content/themes/designreader/feed-block.php",
+		"/Users/krisa/dev/designreader_wp/wp/wp-includes/theme-compat/header.php",
+		"/Users/krisa/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/krisa/dev/designreader_wp/wp/wp-content/themes/designreader/single.php",
+		"/Users/krisa/dev/designreader_wp/js/main.js",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#27/config.php",
+		"/Users/krisa/.ssh/known_hosts",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#22/config.php",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#7/config.php",
+		"/Users/krisa/dev/kirby_jakubjansa/site/site/snippets/alt_tag.php",
+		"/Users/krisa/dev/kirby_jakubjansa/site/site/snippets/article_process.php",
+		"/Users/krisa/dev/sok_bz/website/site/controllers/authors.php",
+		"/Users/krisa/dev/sok_bz/website/site/templates/tagcloud.php",
+		"/Users/krisa/dev/sok_bz/js/f-vue-focus.js",
+		"/Users/krisa/dev/sok_bz/js/main.js",
+		"/Users/krisa/dev/sok_bz/website/site/templates/home.php",
+		"/Users/krisa/dev/sok_bz/website/site/templates/default.php",
+		"/Users/krisa/dev/sok_bz/website/site/snippets/menu.php",
+		"/Users/krisa/dev/sok_bz/website/site/snippets/footer.php",
+		"/Users/krisa/dev/sok_bz/gulpfile.js",
+		"/Users/krisa/dev/sok_bz/js/vue-router.js",
+		"/Users/krisa/dev/sok_bz/js/vue-resource.js",
+		"/Users/krisa/dev/edookit_product/website/site/snippets/contact_form.php",
+		"/Users/krisa/dev/edookit_product/website/site/snippets/uniform-email-edookit-contact.php",
+		"/Users/krisa/dev/edookit_product/website/site/snippets/uniform-email-edookit-events.php",
+		"/Users/krisa/dev/edookit_product/website/site/snippets/uniform-email-edookit-order.php",
+		"/Users/krisa/dev/edookit_product/website/logs/contactmessages.log",
+		"/Users/krisa/dev/edookit_product/website/site/snippets/footer.php",
+		"/Users/krisa/dev/edookit_product/website/site/templates/home.php",
+		"/Users/krisa/dev/edookit_product/website/site/controllers/default.php",
+		"/Users/krisa/dev/edookit_product/website/site/controllers/default_old.php",
+		"/Users/krisa/dev/edookit_product/website/site/controllers/features.php",
+		"/Users/krisa/dev/edookit_product/website/panel/app/src/panel/models/page/blueprint.php",
+		"/Users/krisa/dev/edookit_product/website/site/templates/default.php",
+		"/Users/krisa/dev/edookit_product/website/site/blueprints/default.php",
+		"/Users/krisa/dev/edookit_product/website/site/blueprints/home.php",
+		"/Users/krisa/dev/edookit_product/website/site/blueprints/site.php",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#39/kiki.temporary.zone",
+		"/Users/krisa/dev/kirby_paulozgur/kirby/assets/js/main.js",
+		"/Users/krisa/dev/kirby_paulozgur/gulpfile.js",
+		"/Users/krisa/dev/edookit_product/gulpfile.js",
+		"/Users/krisa/dev/sok_grav/gulpfile.js",
+		"/Users/krisa/dev/sok_grav/package.json",
+		"/Users/krisa/dev_experiments/pixi/indexAll.html",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#39/dynamic.php",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#7/example",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#6/default copy",
+		"/Users/krisa/dev/sok_grav/.stylelint",
+		"/Users/krisa/dev/edookit_product/website/site/templates/home_old.php",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#7/default.php",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#5/default.php",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#1/index.php",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#0/index.html",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#8/error.php",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#0/index.php",
+		"/Users/krisa/dump/dre.dump",
+		"/Users/krisa/dev/designreader_wp/js/jsrender.js",
+		"/Users/krisa/dev/designreader_wp/js/infinite.js",
+		"/Users/krisa/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/krisa/dev/designreader_wp/wp/wp-config.php",
+		"/Users/krisa/dev/designreader_wp/wp/wp-content/themes/designreader/feed-block_newer_thanoldloop.php",
+		"/Users/krisa/dev/designreader_wp/sass/main.scss",
+		"/Users/krisa/dev/designreader_wp/wp/wp-content/themes/designreader/feed-block_oldloop.php",
+		"/Users/krisa/dev/designreader_wp/js/underscore.js",
+		"/Users/krisa/dev/komikskoma/site/content/5-galerie/galerie.en.txt",
+		"/Users/krisa/dev/komikskoma/site/content/5-galerie/galerie.cz.txt",
+		"/Users/krisa/dev/komikskoma/site/site/templates/partneri.php",
+		"/Users/krisa/dev/komikskoma/site/site/snippets/footer.php",
+		"/Users/krisa/dev/komikskoma/site/site/blueprints/galerie_den.php",
+		"/Users/krisa/dev/komikskoma/site/site/blueprints/galerie.php",
+		"/Users/krisa/dev/komikskoma/site/site/templates/home.php",
+		"/Users/krisa/dev/komikskoma/site/site/snippets/menu.php",
+		"/Users/krisa/dev/komikskoma/site/site/snippets/header.php",
+		"/Users/krisa/dev/komikskoma/site/site/templates/galerie.php",
+		"/Users/krisa/dev/komikskoma/site/site/snippets/headerinfo.php",
+		"/Users/krisa/Arq/arq licence 56009_56610.arqLicense.xml",
+		"/Users/krisa/dev/designreader_wp/static/dev/sass/main.scss",
+		"/Users/krisa/dev/designreader_wp/gulpfile.js",
+		"/Users/krisa/dev/designreader_wp/js/vue-router.js",
+		"/Users/krisa/dev/designreader_wp/js/vue-resource.js",
+		"/Users/krisa/dev/designreader_wp/wp/wp-content/themes/designreader/wp-api-menus-v2.php",
+		"/Users/krisa/dev/designreader_wp/wp/wp-content/themes/designreader/nav-block.php",
+		"/Users/krisa/dev/designreader_wp/js/director.js",
+		"/Users/krisa/dev/designreader_wp/wp/wp-content/themes/designreader/nav-block_old.php",
+		"/Users/krisa/dev/designreader_wp/gulpfile_old.js",
+		"/Users/krisa/dev/designreader_wp/wp/wp-content/themes/designreader/assets/js/main.js",
+		"/Users/krisa/dev/designreader_wp/package.json",
+		"/Users/krisa/dev/designreader_wp/js/jquery.js",
+		"/Users/krisa/dev/designreader_wp/js/velocity.js",
+		"/Users/krisa/dev/designreader_wp/wp/wp-content/themes/designreader/index2.php",
+		"/Users/krisa/dev/designreader_wp/static/dev/js/main.js",
+		"/Users/krisa/dev/sok_bz/js/velocity.js",
+		"/Users/krisa/Library/Caches/com.binarynights.ForkLift2/#1/index.html",
+		"/Users/krisa/dev/designreader_wp/wp/wp-content/themes/designreader/index_noajax.php",
+		"/Users/krisa/dev/designreader_wp/designreader/footer.php",
+		"/Users/krisa/Downloads/wp_akstraubova_cz.sql"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 181.0,
+		"where_history":
+		[
+			"/Users/krisa/dev/sok_bz/website/kirby",
+			"<open folders>",
+			"/Users/krisa/dev/kirby_jakubjansa/site/site/plugins/cdn",
+			"/Users/krisa/dev/kirby_jakubjansa/site/site",
+			"<,/Users/krisa/dev/edookit_product/website",
+			"<open files>,/Users/krisa/dev_experiments/vectortest/vector.im/beta",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"../",
+			"debug",
+			"sortby",
+			"findby",
+			"sortby",
+			"findby",
+			"findBy",
+			"button",
+			"a",
+			"button",
+			"z-index",
+			"p",
+			"60px",
+			"255",
+			"0",
+			"Backstage",
+			"persona.",
+			"displacement",
+			"PIXI",
+			"slits",
+			"backdrop",
+			"map",
+			"displacement",
+			"displacementMap",
+			"displace",
+			"filter",
+			"reload",
+			"text",
+			"markdown",
+			".obsah",
+			"              validation: false",
+			"title",
+			"util",
+			"utiul",
+			"autoprefixe",
+			"processors",
+			"- ",
+			"main",
+			"lost",
+			"you are",
+			"feedpane",
+			"Drerouter",
+			"router",
+			"Router",
+			"router",
+			"APP",
+			"script",
+			"template",
+			"script",
+			"template",
+			"menuOpened",
+			"searchDeployed",
+			"open",
+			"header",
+			"title",
+			"block",
+			"1",
+			"parsedHTML",
+			"'",
+			"miniprocessors",
+			"cssnano",
+			"uglify",
+			"minijs",
+			"console.log",
+			"height",
+			"content",
+			"http",
+			"<?php snippet('alt_tag') ?>",
+			"zoomed-out",
+			"article-about",
+			"<?php snippet('header') ?>",
+			"alt_tag",
+			"zoomed",
+			"snippet",
+			"header",
+			"alt=\"<?php echo",
+			"alt=\"<?php snippet('header') ?>",
+			"alt=\"<?php snippet('alt_tag') ?>",
+			"alt=<?php snippet('alt_tag') ?>",
+			"<?php snippet('header') ?>",
+			"alt=\"<?php snippet('header') ?>",
+			"<?php echo $image->popisek() ?>",
+			"alt=",
+			"slice",
+			"popisek",
+			"alt=\"\"",
+			"alt",
+			"find alt",
+			"column",
+			"startSearch",
+			"order",
+			"script",
+			"scriptorder",
+			"order",
+			"sok",
+			"VUE",
+			"head-s",
+			"    ",
+			"stagger",
+			"echoMessage",
+			"Contact",
+			"echoMessage",
+			"message",
+			"    size: large",
+			"from",
+			"email",
+			"form",
+			"console.log",
+			"player",
+			"scroll",
+			"videoHide",
+			"onPlayProgress",
+			"onPause",
+			"onPlay",
+			"play",
+			"videoInit",
+			"ftp",
+			"frooga",
+			"frogaloop",
+			"processors",
+			"browserSync",
+			"connect",
+			"php",
+			"mqpacker",
+			"css-mq",
+			"lint",
+			"run",
+			"uncss"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<?php snippet('alt_tag', array('image' => $image)) ?>",
+			"alt=\"<?php snippet('alt_tag') ?>",
+			"alt=<?php snippet('alt_tag') ?>",
+			"<?php snippet('header') ?>",
+			"}};\n",
+			"http://akstraubova.cz/",
+			"$CCL_POSITIVE_GREEN_OLD",
+			"$CCL_POSITIVE_GREEN",
+			"$POSITIVE_GREEN_OLD",
+			"$POSITIVE_GREEN",
+			"$NOTIFICATION_PINK",
+			"$BLACK",
+			"$STICKER_FONT",
+			"$COURSES_COLOR",
+			"$POLLS_COLOR",
+			"$UPDATES_COLOR",
+			"$TASKS_COLOR",
+			"$STREAM_COLOR",
+			"$SETTINGS_COLOR",
+			"$DOCUMENTS_COLOR",
+			"$MEALORDERS_COLOR",
+			"$LESSONPLANS_COLOR",
+			"$OVERVIEW_COLOR",
+			"$PAGES_COLOR",
+			"$SCHOOLWORKS_COLOR",
+			"$EVALUATION_COLOR",
+			"$ATTENDANCE_COLOR",
+			"$EVENTS_COLOR",
+			"$HOMEWORKS_COLOR",
+			"$MESSAGES_COLOR",
+			"$EVEN_GRID_BACKGROUND",
+			"$ELEVATED_BACKGROUND",
+			"$OVERLAY_BACKGROUND_COLOR",
+			"$HIGHLIGHT3_COLOR",
+			"$HIGHLIGHT2_COLOR",
+			"$HIGHLIGHT1_COLOR",
+			"$HIGHLIGHT_TEXT_COLOR",
+			"$MAIN_TEXT_COLOR",
+			"$SHADOW",
+			"$FORM_BACKGROUND",
+			"$SELECTED_BACKGROUND",
+			"$BOX_BORDER_2",
+			"$BOX_BORDER",
+			"$HEADER_ACTIVE_BACKGROUND",
+			"$HEADER_HOVER_BACKGROUND",
+			"$HEADER_BACKGROUND",
+			"$BOX_ACTIVE_BACKGROUND",
+			"$BOX_HOVER_BACKGROUND",
+			"$BOX_BACKGROUND",
+			"$BACKGROUND_ALL"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2870,
+								2870
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1839.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dokuwiki/lib/tpl/temporary/style.ini",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								822,
+								822
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/krisa/dev/tmp/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								765
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dokuwiki.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"alphabetise",
+				"website/site/plugins/alphabetise/alphabetise.php"
+			],
+			[
+				"authorsphp",
+				"website/site/templates/authors.php"
+			],
+			[
+				"tags",
+				"website/site/templates/tags.php"
+			],
+			[
+				"home",
+				"website/user/themes/temporary/templates/home.html.twig"
+			],
+			[
+				"",
+				"tmp/package.json"
+			],
+			[
+				"style",
+				"temporary/dev_css/style.css"
+			],
+			[
+				"designreaderindex",
+				"wp/wp-content/themes/designreader/index.php"
+			],
+			[
+				"index",
+				"search/index.php"
+			],
+			[
+				"main.js",
+				"js/g-main.js"
+			],
+			[
+				"block-feed",
+				"wp/wp-content/themes/designreader/block-feed-vue.php"
+			],
+			[
+				"main.scss",
+				"sass/main.scss"
+			],
+			[
+				"header",
+				"wp/wp-content/themes/designreader/header.php"
+			],
+			[
+				"main",
+				"sass/main.scss"
+			],
+			[
+				"opengra",
+				"site/site/snippets/opengraph_post.php"
+			],
+			[
+				"opengrap",
+				"site/site/snippets/opengraph_home.php"
+			],
+			[
+				"tagcloud",
+				"website/site/templates/tagcloud.php"
+			],
+			[
+				"json",
+				"website/site/templates/json.php"
+			],
+			[
+				"menu",
+				"website/site/snippets/menu.php"
+			],
+			[
+				"gulpfi",
+				"gulpfile.js"
+			],
+			[
+				"graf",
+				"website/site/templates/graf.php"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"footer",
+				"website/site/snippets/footer.php"
+			],
+			[
+				"default",
+				"website/site/templates/default.php"
+			],
+			[
+				"article",
+				"website/site/blueprints/article.php"
+			],
+			[
+				"json.php",
+				"website/site/templates/json.php"
+			],
+			[
+				"logconta",
+				"website/logs/contactmessages.log"
+			],
+			[
+				"site",
+				"website/site/blueprints/site.php"
+			],
+			[
+				"blueprintsite",
+				"website/site/blueprints/site.php"
+			],
+			[
+				"contactform",
+				"website/site/snippets/contact_form.php"
+			],
+			[
+				"templatehome",
+				"website/site/templates/home.php"
+			],
+			[
+				"controllerhome",
+				"website/site/controllers/home.php"
+			],
+			[
+				"sitebluepr",
+				"website/panel/app/src/panel/models/page/blueprint.php"
+			],
+			[
+				"templatedefault",
+				"website/site/templates/default.php"
+			],
+			[
+				"blueprintdefau",
+				"website/site/blueprints/default.php"
+			],
+			[
+				"blueprintshome",
+				"website/site/blueprints/home.php"
+			],
+			[
+				"contact",
+				"website/site/blueprints/contact.php"
+			],
+			[
+				"main.",
+				"sass/main.scss"
+			],
+			[
+				"wp-config",
+				"wp/wp-config.php"
+			],
+			[
+				"mai",
+				"js/main.js"
+			],
+			[
+				"galer",
+				"site/site/blueprints/galerie.php"
+			],
+			[
+				"gulpf",
+				"gulpfile.js"
+			],
+			[
+				"galeri",
+				"site/site/templates/galerie.php"
+			],
+			[
+				"headerin",
+				"site/site/snippets/headerinfo.php"
+			],
+			[
+				"g",
+				"gulpfile.js"
+			],
+			[
+				"nav-block",
+				"wp/wp-content/themes/designreader/nav-block.php"
+			],
+			[
+				"single",
+				"designreader/single.php"
+			],
+			[
+				"tag",
+				"designreader/tag.php"
+			],
+			[
+				"order",
+				"website/site/templates/order-form.php"
+			],
+			[
+				"event",
+				"website/site/templates/event-form.php"
+			],
+			[
+				"order-form",
+				"website/site/templates/order-form.php"
+			],
+			[
+				"event-fp",
+				"website/site/templates/event-form.php"
+			],
+			[
+				"order-",
+				"website/site/templates/order-form.php"
+			],
+			[
+				"ma",
+				"sass/main.scss"
+			],
+			[
+				"import",
+				"sass/_import.scss"
+			],
+			[
+				"head",
+				"website/site/snippets/head.php"
+			],
+			[
+				"main.scs",
+				"sass/main.scss"
+			],
+			[
+				"functions",
+				"designreader/functions.php"
+			],
+			[
+				"hea",
+				"site/site/snippets/header2.php"
+			],
+			[
+				"defau",
+				"site/site/templates/default.php"
+			],
+			[
+				"partneri",
+				"site/site/templates/partneri.php"
+			],
+			[
+				"cz.ph",
+				"site/panel/app/languages/cz.php"
+			],
+			[
+				"en.php",
+				"website/site/languages/en.php"
+			],
+			[
+				"cz.php",
+				"website/site/languages/cz.php"
+			],
+			[
+				"contact_form",
+				"website/site/snippets/contact_form.php"
+			],
+			[
+				"headerinf",
+				"site/site/snippets/headerinfo.php"
+			],
+			[
+				"m",
+				"sass/main.scss"
+			],
+			[
+				"akce",
+				"site/site/blueprints/akce.php"
+			],
+			[
+				"maij",
+				"js/main.js"
+			],
+			[
+				"kontakt",
+				"site/site/templates/kontakt.php"
+			],
+			[
+				"ofestival",
+				"site/site/blueprints/ofestivalu.php"
+			],
+			[
+				"ofest",
+				"site/site/templates/ofestivalu.php"
+			],
+			[
+				"header2",
+				"site/site/snippets/header2.php"
+			],
+			[
+				"home.php",
+				"site/site/templates/home.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

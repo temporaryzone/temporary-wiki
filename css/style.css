@@ -1,0 +1,172 @@
+@import 'marx.css';
+
+ 
+@font-face {
+  font-family: 'office';
+  src:  url('fonts/OfficeCodePro-Regular.woff2') format('woff2'),
+        url('fonts/OfficeCodePro-Regular.woff') format('woff'),
+       url('fonts/OfficeCodePro-Regular.ttf') format('truetype');
+}
+
+/*@font-face {
+  font-family: 'oswald';
+  src:  url('fonts/oswald-bold-webfont.woff2') format('woff2'),
+        url('fonts/oswald-bold-webfont.woff') format('woff'),
+       url('fonts/oswald-bold-webfont.ttf') format('truetype');
+   	font-weight: bold;
+    font-style: normal;
+}*/
+
+
+@font-face {
+  font-family: 'oswald';
+  src:  url('fonts/oswald-regular-webfont.woff2') format('woff2'),
+        url('fonts/oswald-regular-webfont.woff') format('woff'),
+       url('fonts/oswald-regular-webfont.ttf') format('truetype');
+   	font-weight: bold;
+    font-style: normal;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+@lost gutter 10px;
+@lost cycle none;
+$header: 48px;
+$platinum: #E3E3E3;
+$black: black;
+
+body {
+	font-family: office;
+
+	font-size: 150%; 
+   color: $black;
+	background-color: white;   
+}
+
+
+#dokuwiki__site {
+	margin: 0;
+	lost-utility: clearfix;
+}
+
+#dokuwiki__top {
+	margin: 0;
+	lost-utility: clearfix;
+}
+
+#dokuwiki__header {
+	margin: 0;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #000;
+	lost-flex-container: row;
+	height: $header;
+	background-color: white;
+}
+
+.headings {
+	lost-column: 2/12 flex;
+
+
+}
+
+.headings h1 {
+	margin: 0;
+}
+
+.headings h1 a {
+	color: black;
+}
+
+.search {
+	lost-column: 3/12 flex;
+	 lost-align: middle-right;
+
+}
+.search form {
+	width: 100%;
+	lost-flex-container: row;
+}
+
+.search form input {
+	width: 70%;
+	margin: 0;
+	float:left;
+	/*border: none;*/
+	/*background-color: grey;*/
+	height: 40px
+}
+.search form button {
+width: 30%;
+	margin: 0;
+	border: none;
+}
+
+.breadcrumbs {
+	lost-column: 3/12 flex;
+}
+#dokuwiki__usertools {
+	lost-column: 2/12 flex;
+}
+#dokuwiki__sitetools {
+		lost-column: 2/12 flex;
+}
+
+
+
+#dokuwiki__header ul { 
+	list-style-type: none;
+	font-size: 1rem;
+}
+#dokuwiki__header ul li {
+	display: inline;
+}
+
+.wrapper {
+	margin-top: $header;
+}
+
+
+
+#dokuwiki__content {
+	background-color: $platinum;
+}
+
+
+#dokuwiki__aside {
+	          columns: 5 200px;
+}
+#dokuwiki__aside h3 {
+/*column-break-before: always;*/
+	break-before: column;
+	text-transform: uppercase;
+	font-family: 'oswald';
+	font-size: 2rem;
+	display: inline;
+	margin: 10px 0 0 0;
+	width: auto;
+	/*float: left;*/
+}
+.level3 {
+	display: inline;
+}
+.level3 p {
+margin: 0;
+display: inline;
+	width: auto;
+	/*float: left;*/
+}
+#dokuwiki__aside hr {
+/*display: none;*/
+}
+
+/*typography*/
+
+h1 {
+	font-family: 'oswald';
+	text-transform: uppercase;
+	border: 0;
+}

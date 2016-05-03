@@ -1,4 +1,4 @@
-a:2:{s:7:"current";a:6:{s:4:"date";a:2:{s:7:"created";i:1457713801;s:8:"modified";i:1454458051;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:8:"relation";a:2:{s:5:"media";a:2:{s:34:"notes:site.tax_descriptions.author";b:0;s:50:"notes:attribute_site.tax_descriptions_taxonomy_var";b:0;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:11:"description";a:1:{s:8:"abstract";s:296:"frankly i would just create an array in site.yaml
+a:2:{s:7:"current";a:6:{s:4:"date";a:2:{s:7:"created";i:1457713801;s:8:"modified";i:1457743233;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:8:"relation";a:2:{s:5:"media";a:2:{s:34:"notes:site.tax_descriptions.author";b:0;s:50:"notes:attribute_site.tax_descriptions_taxonomy_var";b:0;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:11:"description";a:1:{s:8:"abstract";s:296:"frankly i would just create an array in site.yaml
 with taxonomy->description mappings
 then you can look up your description for the taxonomy that way
 somehting like:

@@ -1,9 +1,13 @@
+
+<WRAP group>
+
+
 Tohle je sidebar.
 
 Edituje se tak, že se editne stránka [[sidebar|]] a dá se do něj přidávat všechno co uznáte za potřebný.
 
+</WRAP>
 
-----
 ==== dočasná zóna ====
 
 [[tmp:texty:pravidla| Pravidla]]
