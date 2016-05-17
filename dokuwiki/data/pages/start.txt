@@ -1,1 +1,279 @@
-# This is going to be awesome
+Projekt dočasné zóny dohromady spojuje velmi různorodá, na první pohled nesouvisející témata. Open-source, design a jeho význam, sociologie, osobní soukromí, bezpečnost na internetu, společenská angažovanost, decentralizace a budování komunity. Jsou to témata podle nás propojená a pro současnou společnost naprosto zásadní. Dočasná zóna je vyústěním dlouhých diskuzí skupiny lidi kteří potřebovali nějak reagovat.
+
+Tento text je úvodem ke vzniku dočasné zóny. Je rozdělen na dvě části: 
+- První část jménem motivace, popisuje motivaci za vznikem dočasné zóny, systém fungování dočasné zóny a mojí roli na dočasné zóně.  Tato část je ekvivalentem dokumentace VŠKP.
+- Druhá část se obrací k tématům která v současné době dočasnou zónu zajímají a jsou podstatná jako jeden z výstupů této diplomové práce.
+
+# VÝSTUPY DIPLOMOVÉ PRÁCE? (VYŘEŠIT)
+Cílem této diplomové práce bylo založit a spravovat tvůrčí komunitu, která bude fungovat na principetch open-source filosofie (o tom víc dále). Prezentovat komunitu lidí, jako výsledek diplomové práce dost dobře nejde. Výstupem je tedy sbírka dokumentů které komunita využívá ke svému fungování (řád dočasné zóny), dokumentace k doposud proběhlým projektům, materiály kterými se dočasná zóna prezentuje (např. web) a v neposlední řadě teoretické zasazení projektu (tento text), který slouží z části jako “dokumentace VŠKP” (sekce Motivace) a z části jako manifest celého projektu (sekce Témata). 
+
+# ====== Co je to dočasná zóna? ======
+
+Na domovské stránce projektu, https://temporary.zone je popis:
+_Dočasná zóna je neziskové open-source design studio. Jsme skupina angažovaných designéru, umělců a programátorů, kteří využívají nové a alternativní způsoby rozložení práce. Inspirují nás principy fungování open-source komunity, které aplikujeme na design a umění. Pomáháme neziskovým organizacím a projektům, nebo projekty sami iniciujeme. Naše výstupy jsou věřejně přístupné a mají otevřenou licenci._
+
+Tento popis možná vyvolává více otázek než dává odopovědí. Zaprvé je nutné definovat co je to open-source[[krisa:diplomka:tmp#open-source_design | open-source design]] studio, to znamená definovat pojem open-source[[krisa:diplomka:tmp#motivace | motivaci]]. Následně se objevuje podstatnější otázka. Proč dělat open-source design studio, to se pokusím vysvětlit v [[krisa:diplomka:tmp#motivace | motivaci]].
+
+# ====== Motivace ======
+
+
+## ====== Jak začala dočasná
+ zóna? ======
+
+
+
+K vysvětvětlení projektu dočasné zóny je nejlepší popsat jak dočasná zóna začala. 1. 1. 2015 Facebook měnil svoje podmínky užívání. Podstatnou změnou byl detail v nových podmínách, který znamenal, že i pokud si smažete svoje data z FB, tak je FB bude moci navždy užívat jak uzná za vhodné (analyzovat, prodávat atd.  více [[krisa:diplomka:tmp#big-data |big data]]). Nikdo z nás si nemyslel, že by nás facebook doopravdy smazal ze svých databází. Každopádně byl to podnět, který nas přinutil udělat něco na co jsme už nějakou dobu mysleli. Odejít z Facebooku. Byla to akce čistě symbolická, teď to asi vypadá trochu dětinsky a nezajímavě. Pro nás to ovšem byl podstantný moment. Najednou se nám změnila perspektiva, stáli jsme venku a začali si uvědomovat, jak výrazný efekt na nás facebook, potažmo sociální sítě měly. Nastolilo to základní rámec našich diskuzí - [[krisa:diplomka:tmp#open-source | internet]] a [[krisa:diplomka:tmp#soukromi | soukromí]]. Bez facebooku jsme něměli komunikační nástroje, tak jsme začali hledat a využívat alternativy v podobě [[krisa:diplomka:tmp#open-source | open-source]] softwaru. Začali jsme s jednoduchým forem {{co je forum}} a postupně přešli přes několik dalších typů for, plnohodnoutnou soukromou sociální síť až do dnešního stavu, který využívá kolaborativní chat a [[krisa:diplomka:tmp#design_wikipedie |wiki]]. Protože jsme několikrát při přechodech ztratili naše původní data, objevilo se další téma - [[krisa:diplomka:tmp#docasnost |dočasnost a podstata zapomínání]]. Jelikož jádro dočasné zóny tvoří hlavně designéři, [[krisa:diplomka:tmp#docasnost |sociální role designu a budoucnost designu]] jsou další podstatná témata, která jsme mezi sebou začali řešit.
+
+====== ## Vznik temporary.zone ======
+
+
+Název dočasná zóna vznikl překvapivě jednoduše. Vlastnil jsem doménu *temporary.zone* asi už od roku 2013. V tom roce se objevily nové doménové přípony, jednou z nichž bylo .zone. Doménu temporary.zone nikdo nevlastnil, tak jsem ji koupil s tím, že by se jednou mohla hodit.
+
+Když jsme pak hledali místo, kam dát naše komunikační nástroje, temporary.zone byla logickou volbou, přijatou všemi. Název se postupně uchytil (asi hlavně proto, že zní dobře v češtině i angličtině) a začali jsme ho používat nejen jako doménu, ale jako naše označení, jakmile jsme se rozhodli udělat další krok. Začít spolupracovat na projektech.
+====== 
+## Vznik open-source studia ======
+
+
+Ze způsobu komunikace vznikla chuť něco vytvářet, ovlivnit témata o kterých se tak často bavíme. Dohodli jsme se, že vytvoříme systém jakým budeme fungovat. Nějaká struktura je podstatná, protože tvoří rámec od kterého se odrážíme a celkově to všechno značně. Každý ví co má očekávat a co bude dělat. Když příbíráme někoho do teamu tak se jednoduše obrátíme na náš základní řád a systém fungování. 
+
+## Systém fungování
+
+I když jsme ze začátku neměli správné pojmenování toho jak bychom fungovali, věděli jsme, že vše musí jít o co nejvíce otevřený sýstém. Je to opak fungování komerčního studia. Nevadí nám, kdyby někdo použil naši práci, naopak podporujeme to. Je to náš způsob zahájení dialogu se světem kolem nás.
+
+Existují dva hlavní dva typy projektů na kterých chceme dělat. Prvním je spolupráce s ostatními organizacemi, které řeší [[krisa:diplomka:tmp#temata|témata]]které nás na zóně zajímají. Druhým typem jsou projekty které sami iniciujeme a vymýšlíme. 
+Z toho lze vidět, že to co zóna dělá je přímím vyústěním našich diskuzí a že děláme jen na věcech které nás (respektive alespoň část z nás) zajímají.
+
+Způsob našeho fungování se postupně hodně vyvíjí a podobně přistupujeme k naší práci. Nic není špatné, začíná se prací. Přemýšlíme o tom tak, že místo toho aby někdo měl něco na starosti, věci postupně vylepšujeme podle toho, jak kdo uzná za vhodné. Začít nový projekt může znamenat napsat odstavec textu, nebo nakreslit jeden náčrtek. Někdo další pak tuto počáteční snahu snad vezme a udělá další krok, případně ten další krok udělá původní autor (a nebo se nestane nic). Takový systém má obrovskou výhodu toho, že nikdo nepřemýšlí nad výsledkem, jen nad jedním z mnoha kroků. Je to daleko intimnější způsob práce, kde se mezi všemi sdílí i mnoho špatných, nepovedených nápadů a pokusů. Svým způsobem je takový systém blíže škole, než práci. A  pro mnohé z nás je dočasná zóna substitucí toho, co jsme očekávali, že se nám dostane na vysoké škole, ale nakonec to nikdy nepřišlo.
+
+## Anonimita členů
+
+Z našeho souboru pravidel je patrné, že zachováváme anonimitu našich členů pokud si přímo nepřejí být zvěřejněni. Není to pokus o tvorbu nějaké exkluzivity a uzavřenosti. Kolektivně jsme se shodli, že nám to dá určitou volnost práce. Nikdo nás dopředu nehodnotí podle toho co děláme “přes den” a naopak, nikdo nás nesoudí za to co dělá dočasná zóna. V posledních letech se díky společnostem jako Facebook a LinkedIn objevil tlak na to aby identita lidí na internetu byla explicitně věřejná. Naše přesvědčení je opačné - jsou dobré důvody proč zůstat anonymní. Na druhou stranu to neznamená, že za naší anonimitu nějak přehnaně bojujeme a nestojíme si za projekty dočasné zóny. Jenom prostě nemáme seznam členů veřejně na webu a členy nerozhlašujeme.
+
+## Velikost dočasné zóny
+
+Nexistuje sytémový nebo teoretický limit počtu členů dočasné zóny. Omezení bude pravděpodobně plynout z praxe. S našim realtime způsobem komunikace (chat) a vnitřním řádem kde je nutná participace všech členů, bychom asi nemohli moc dobře fungovat s počtem vetším než 20 členů. V současné době je náš počet kolem 10 a to se zdá být ideální.
+
+## Moje pozice na dočasné zóně
+
+Na zóně mezi členy neexistuje přímo daná hiearchie. Pozice jsou dobrovolně domluvené a týkají se administrace a organizace, ne rozhodování. Na dočasné zóně mám dvě pozice. První jako autor diplomové práce dočasná zóna, který se snaží projekt nastartovat, zajistit nutnou infrastrukturu a případně zdokumentovat dění. Je to hodně administrační práce, starání se o nástroje které využíváme. Druhá moje pozice je jako regulérního člena dočasné zóny, kde řeším projekty, přináším pro mě zajímavá témata a pracuju na nich s ostatními. Do budoucna bych chtěl vymyslet systém, kdy by zóna mohla fungovat beze mě v té první administrační pozici (případně by si jí členi mezi sebou postupně střídali). Jako na člena dočasné zóny na mě platí stejný řád jako platí pro všechny, včetně toho, že by mě zóna mohla vyloučit ze svého kruhu. Mým záměrem je systém dočasné zóny postupně nastavit takovým způsobem, že bude možné aby jednou v budoucnosti mohla fungoval beze mě (případně zakládajicích členů). 
+
+## Otevřené soubory, otevřený process
+
+Všechny naše veřejné výstupy jsou otevřené, tedy mají [[krisa:diplomka:tmp#open-source_licence| otevřenou licenci]] {{přesněji zatím nemají licenci žádnou, což bychom měli do budoucna vyřešit a explicitně aplikovat některou z otevřených licencí na naše výstupy }}. Znamená to, že si je kdokoliv může vzít a dál je rozpracovat, upravovat pro vlastní účely a dokonce je komerčně využít.
+
+Podstatné je neje to, že publikované soubory mají otevřenou licenci, ale že jsou publikované v otevřených formátech. To znamená, že k jejich otevření a úpravě není potřeba komerčního softwaru.
+
+Například - pro tvorbu grafického designu je nutný DTP (desktop publishing) software. Pokud budeme publikovat soubory, které se dají otevřít jen komerčním softwarem (v tomto případě Adobe Indesign, nejvíce užívaný DTP program), zbytečně uzavřeme přístup všem kteří ten software nebudou mít. Snažíme se to řešit tím, že tvoříme materiály v [[krisa:diplomka:tmp#open-source| open-source]] softwaru, který je dostupný všem. Příkladem takového softwaru pro účely DTP je [[krisa:diplomka:tmp#scribus| Scribus]].
+
+## Angažanovanost designérů
+
+Pokud se současná generace grafických designérů (těch co začali být profesně aktivní v 90. letech) něčím vymezovala oproti generaci před nimi, bylo to hlavně vyhranění na rovině estetiky případně tlaku na konceptuálnější přístup (kteřý před tím prakticky neexistoval). Jako generace narozených v 90. letech (profesně aktivních přibližně od roku 2010) jsou naše vymezení vůči předešlé generaci úplně jiného typu. Z estetického i konceptuálního heldiska sdílíme podobné názory. Vyhraňujeme se hlavně v názorech na dopad a sílu designu. Existuje zažitý názor, že kvalitní grafický designér svojí prací na plakátech a knihách tzv. mění svět k lepšímu. Současná generace, moje generace v toto postupně přestává věřit. Jak bychom taky mohli.  Kvalitní design se postupně stává jen nástrojem k prodeji, takže se nijak neliší od reklamy. Angažovanost designéru v hlubších tématech je obecně velice malá. A co je asi nejhorší.. Pokud se podíváme na nejzásadněší designové projekty naší doby (ty s největším sociálním dopadem - Facebook, Twitter, Wikipedia, Uber), ani jeden z nich nevymyslel designer. Tyto projekty jsou v jádru sociální a sociálním se stává i design. Design směřuje k sytému, kde bude designovat každý, ne jen experti. Tuto proměnu  velice dobře vysvětluje kniha (( Design, When Everybody Designs )). Konzervativní designéři budou vůči takovému vývoji kritičtí a budou se snažit o zachování jejich individuální exkluzivity. Budoucnost designu je bezpochyby kolektivní a kolaborativní.
+
+Máme problém s celou myšlenkou “měnit svět” - je to velice individualistický, nespolečenský přístup. Lepší přístup je podle nás prostě postavit, to co bychom chtěli ve světě vidět. Není to samozřejmě zdaleka pohled všech, ale je to něco co lze vidět na vysokoškolské půdě čím dál tím častěji. Dá se tedy říci, že studenti sami tou změnou, kterou chctějí vidět ve světě. Proto naše generace designérů cití větší nutnost se angažovat do společenského dění.
+
+## Nestálá budoucnost grafického designu
+
+Současná vyrůstající generace designérů začíná být taky skeptická k samému odvětví grafického designu. Školství ani současní profesionálové si to neuvědomují, protože je to přímo nepostihuje, ale celá profese grafického designu se značně proměňuje. Grafičtí designéři kteří učí na vysokých školách, mají pořád stálý příliv tradiční designérské práce (tvorbu tiskovin). To kontrastuje s tím, čím se pak živí čerství absolventi. Ti mají zpravidla daleko větší problém sehnat práci zaměřenou na tvorbu tiskovin. Daleko snadněji seženou práci která obnáší tvorbu digitálních médií - web, video, nebo třeba  komunikační strategie na sociálních sitích. Začíná být tématem, jestli vůbec mají vysoké školy co nabídnout a hlavně jestli vůbec bude grafický design existovat v současné podobě. Může se dost dobře stát, že za 10 let bude pro grafického designéra nejdůležitější schopností něco jiného tvorba tištěných knih a plakátů. Může to být napřd. programování, střih videa, psaní textů, nebo skládání hudby. Vysoké školy na takový vývoj nejsou a pravděpodobně nebudou schopny reagovat. Dočasná zóna je alternativou školy, kde lze dostat to, co školy dnes nejsou schopny poskytnout. [[krisa:diplomka:tmp#open_source| Open-source]] funguje velice podobně jako škola, kde se lidé učí sami mezi sebou.
+
+## Politika
+
+Dočasná zóna nestojí za nějakým konkrétním politickým názorem. Jednotlivý členi budou mít mezi sebou odlišné politické názory. Pohled který sdílime je, že jako generace, jsme dočista apolitičtí. Nemáme problém s tím, že je někdo neo-liberál, konzervativní socialista a nebo komunista. Nevadilo by nám o politice diskutovat, nebo se o ní dokonce hádat. Problém vidíme v tom, že jako generace nediskutujeme a nehádáme se vůbec. I na vysokoškolské půdě jsou serióznější diskuze o politice odmítány a školy od nich studenty často dokonce odrazují. Tahle apolitičnost znamená, že o politice jako vysokoškoláci víme velmi málo. Dokonce i ti co studují politcké vědy na vysoké škole, jí berou spíše jako nějaký fenomén, něco co má být zkoumáno, místo toho aby se osobně více zapojovali. Dočasná zóna je způsob, jakým si členové mohou zformovat jejich politická přesvědčení. Na zóně mají totiž možnost dělat na projektech které mají politický rozměr a tudíž je to nutí si takový materiál nastudovat.
+
+## Podobné projekty
+
+Dočasná zóna by asi neexistovala, kdybychom byli schopni najít nějaký podobný, již běžící projekt. První místo kde jsme čekali, že najdeme lidi řešící podobná témata byly české hacker spacy. 
+
+### Hacker Spaces
+
+Hacker space je v podstatě elektro-technická dílna, kterou může využívat kdokoliv, kdo platí členské poplatky. V zahraničí, obzvlášť v Německu a Holandsku, jsou hacker spaces také místy kde se velmi řeší témata jako open-source a internetová bezpečnost. V Brně je hackerspace jménem base48 (http://base48.cz/), k našemu zklamání jsme zjistili, že open-source filosofie ani problematiky internetu tam nikoho nezajímají. Dostali jsme skoro nepřátelskou odpověď. Důvodem je možná odtržení českých techniků od [[krisa:diplomka:tmp#programatorska_etika | filosofické roviny]] která stojí za technologiemi. Něco podobného lze vidět i v jednom z dílů série dokumentů Kmeny, zasvěcenému hackerům ((http://kmeny.tv/hackeri/)). Možná je to zapříčíněno režií tohoto dokumentu, nicméně je opravdu zvláštní vidět technologicky tak zdatné jedince, kteří jako svůj hlavní volnočasový projekt řeší stroj na blesky. Je to asi tak, jak jeden hlavních protagonistů dokumentu sám říká "Já hacking vnímám jako extrémní formu kutilství.”.
+ 
+Bez větších úspěchů jsme se pokusili kontaktovat jednoho doktorantského studenta na fakultě informačnich technologií Masarykovi univerzity, který pořádal přednášky o internetovém soukromí a bezpečnosti. Se zklamáním nám oznámil, že na Masarykově univerzitě je naprosté minimum lidí kteří se tyhle témata zajímají. Tak malé, že přednášky přestal dělat.
+
+### Paralelní Polis
+
+Předním českým projektem, který řeší podobná témata jako dočasná zóna, je pražský Paralelní Polis. Paralelní Polis je především budova na Dělnické 43 v Praze. V této budově je asi pět na sobě nezávislých projektů. Dělají naprosto skvělou práci v popularizování internetového soukromí, decentralizace a hlavně Bitcoinu. Po kontaktování Paralelního Polisu jsme ovšem začali mít pocit, že jde taky z části o marketingový projekt. Který z hackingu, šifrování a bitcoinu dělá něco “cool”. Nesdílíme názor, že elektronické měny i internetové soukromí stát zakáže a jedinou další cestou budou ilegální šifrované internetové trhy. Jimi vyzdvyhovaný koncept “kryptoanarchie” ((https://www.paralelnipolis.cz/institut-kryptoanarchie/)) vidíme jako poslední možnost zachování si svobody, né jako něco co nám příjde “cool” a budeme se na to těšit. Podle nás je v první řade nutné tlačit na státní systém tradičními cestami a snažit se o zachování (a prohloubení) soukromí občanů.
+
+### Iuridicum Remedium
+
+Iuridicum Remedium ((http://iure.org/)) je česká nevládní nezisková organizace na ochranu lidských práv. Jejich zakládajícímí členy jsou právnící a nespecializují se jenom na problematiku internetového soukromí. Jejich hlavní projekty se však přímo týkají internetu. Nakonec jsme Iuridicum Remedium kontaktovali a snažíme se vymyslet, jak bychom s nimi mohli spolupracovat.
+
+## Publikování
+
+Existuje velká pravděpodobnost, že dočasná zóna bude několik let aktivně fungovat bez výraznějšího vlivu na cokoliv. To vše jen proto, že špatně odhadneme efektivní kanály komunikace (více například v [[krisa:diplomka:tmp#role_teorie| role teorie]]). Naším řešením tohoto problému, je neřešit ho vůbec. Možná, že doopravdy nedává smysl dnes něco publikovat a existuje nějaký lepší způsob jak se zapojit do společenské diskuze. Stejně se o to pokusíme, né proto, že bychom si byli jistí, že to někam povede, ale protože to prostě chceme zkusit. 
+
+## Open-source
+
+*Open-source (v češtině většinou označovaný jako otevřený software) je počítačový software s otevřeným zdrojovým kódem. Otevřenost zde znamená jak technickou dostupnost kódu, tak legální dostupnost – licenci software, která umožňuje, při dodržení jistých podmínek, uživatelům zdrojový kód využívat, například prohlížet a upravovat (na rozdíl od proprietárního software).*
+
+Z této definice se zdá, že open-source je něco čistě technického a nezajímavého pro lidi mimo informační technologie. Open-source je však mnohem víc. V zásadě jde jen o využití základní vlastnosti digitálních medií - lze je nekonečně a zadarmo kopírovat. Programátoři si postupně začali uvědomovat, že si mohou navzájem pomáhat, když mezi sebou budou sdílet zdrojový kód jejich programů (zdrojový kód je prvotní forma programu, kterou ještě lze editovat, narozdíl od výsledného programu). Postupně tak začali vytvářet nové způsoby jak efketivněji komunikovat a psát software takovým stylem, aby byl modulární, aby na něm mohlo pracovat najednou co nejvíce lidí a aby se mohl  dále opakovaně využít. Povedlo se jim vytvořit nejen efektivní systém kolaborace, ale taky dost pravděpodobně návod k tomu, jak by mohla fungovat budoucnost naší civilizace.
+
+Zásadním momentem v open-source komunitách je to, že jsou naprosto dobrovolné. Lidé přispívají i přes to, že z toho pro ně neplyne žádný přímý zisk. Jedinou motivací je vylepšit nástroj, který (pravděpodobně) sami využívají. Navíc může přispívat naprosto každý, open-source se neptá, odkud jste nebo v co věříte.
+
+Výsledná dynamika je docela nepředstavitelná. Naprosto cizí lidé z opačných částí planety se doplňují, pomáhají a navzájem si vylepšují kód. Dokonce spolu ani nemusí komunikovat, programátoři umí číst zdrojový kód a to mnohokrát stačí. Těžko se to popisuje, ale člověk má pocit, že je něčeho součástí a že dělá něco smysluplného, co pomáhá ostatním.
+
+Způsob spolupráce na open-source softwaru funguje taky naprosto otevřeně. Pro zjednodušení vezmeme jako příklad třeba program na úpravu fotek s fiktivním názvem Fotoeditor. Fotoeditor je open-source, ale nemá funkcionalitu exportu do formátu PDF. Umí jen exportovat do formátu JPG. Když budu chtít přidat export do PDF, nemusím se nikoho ptát, prostě funkcionalitu naprogramuji. Moje verze Fotoeditoru teď umí exportovat do PDF a pokud budu mít zájem, kontaktuji původní autory Fotoeditoru a zašlu jim moji verzi Fotoeditoru aby je sloučili s novým PDF exportem, aby si všichni mohli užít PDF export. Autorství projektu je jediné hiearchické rozdělení ve světě open-source. Ve chvíli, když původní autoři nebudou souhlasit s přidáním mojí funkcionality do Fotoeditoru, jednoduše udělám tzv. fork - neboli udělám si vlastní verzi, kterou zvěřejním pod vlastním názvem.
+
+Né úplně každý si uvědomuje, že open-source software je naprosto všude a ve všem. Pokud jste někdy používali počítač, tak jste používali alespoň části open-source softwaru. Naprosto základní knihovny (knihovna je modul kódu, který splňuje jasnou funkci a lze ho znova využít) pohánějicí výpočetní techniku, jsou open-source. Jinak by to ani nešlo, protože je musí mít možnost používat všichni. Obzvlášť internet běží v podstatě celý na open-source softwaru, hlavně na operačním systému Linux.
+Další vlastností open-source softwaru je, že je většinou daleko stabilnější, otestovanější a bezpečnější než běžný komeční software. Existují open-source projekty které mají tisícovky lidí co přispívají. To znamená tisíce mozků, každý s odlišnými zkušenostmi a názory. To je daleko větší počet, síla a rozmanitost než jakou má kterákoliv firma. Není pak divu, že  kritický bezpečnostní software v dnešní době musí skoro vždy být open-source aby jej mohlo zkontrolovat co největší množství lidí.
+
+Jedinou nevýhodou open-source softwaru je zároveň jeho největším kladem. Nemá žádné centrální řízení, vyvíjí se organicky a tím pádem je hodně složité udělat open-source software uživatelsky jednotný a příjemný. Příjemné uživatelské rozhraní si žádá plánování a design. Znamená to taky, že přispívající za takovým designem musí stát a následovat ho. A to se málokdy podaří. Open-source komunita si tento problém v posledních letech začala uvědomovat a reaguje větším soustředěním se na běžné uživatele. Už dnes lze najít nespočet uživatelsky přívětivých verzí operačního systému linux, které svojí uživatelskou přívětivostí konkurujuí komerčním operačním systémům. Tyto operační systémy někdy vznikají pod křídly nějaké neziskové organizace případně státu, kde si uvědomili, že je daleko levnější zaplatit lidi kteří vylepší open-source projekt, než platit za každou licenci operačního systému windows.
+
+## Open design
+
+Open design je způsob designu, který využívá veřejně sdílených informací s otevřenou licencí. Cílem open designu je vytváření a sdílení otevřeného “open-source” hardwaru v kombinaci s open-source softwarem. Filosofie open designu je stejná jako u huntí open-source softwaru, ale aplikuje se na vývoj a výrobu fyzických produktů. V současné době se začína název open design aplikovat na všechen design, jehož výsledky mají nějakou formu otevřené sdíletelné licence. 
+
+## Open-source design
+
+Open-source design není žádný oficiální pojem. Je to něco co jsme si vytvořili, protože jsme nenašli lepší pojem. Jde záměrně o odkaz na open-source software.
+
+I přesto, že smyslem grafického designu není vytvořit zdrojový kód nýbrž produkt - knihu, plakát, web. Grafický design má zdrojový kód ve formě zdrojových souborů nutných k tvorbě grafického designu. V mnoha ohledech by bylo přesnější označovat se za open design studio. Nicméně v dnešní době se ze slovního spojení open-source stalo označením pro hnutí a s ním spojenou otevřenou filosofii. Název open design je oproti názvu open-source design daleko více neurčitý. Navíc cítíme, že podstatnou součástí projektu dočasná zóna, je seznamovat veřejnost s otevřenou filosofií, kterou je open-source.
+
+## Open-source licencování
+
+Existuje celá řada open-source licencí {{ https://opensource.org/licenses }}, které se od sebe liší v menších detailech. Podstatné je, že open-source licence dovoluje jakékoliv další užití - upravování, distribuci, kopírování, využívání ke komerčním účelům, dokonce lze prodávat i samotný software. Jedinou limitací těchto licencí je, že musíte pokračovat v open-source licenci a že zmiňujete historii předešlých přispěvatelů. Tedy nelze vzít něco s open-source licencí a změnit jeho licenci na licenci více uzavřenou která by omezovala jeho používaní. To platí i pro nově přidaný materiál, který navazuje na takovou licenci. Toto se označuje názvem copyleft, zPokud tedy někomu něco s open-source licencí prodám, nemůžu mu zabránit v tom, aby ho sám nezačal prodávat.
+
+## Wikipedia
+
+Wikipedia se pro mě osobně stala velkou inspirací. Je to něco co bereme za běžnou věc, ale při bližším prozkoumání je Wikipedia docela revoluční kus softwaru. Wikipedia je pravděpodobně prvním známějším vyžitím open-source filosofie k něčemu jinému, nežli k tvorbě softwaru. A tím jsou informace. 
+
+### Design wikipedie
+
+Design Wikipedie přímo přebíra principy vývoje open-source softwaru. Kdokoliv může přispět a Wikipedia zachovává verze všech úprav textů. Užívádní Wikipedie je velice snadné. Jde o čistě textové soubory s přílohami, které jsou propojené hypertext odkazy. Každý kdo kdy psal na počítači, ihned pochopí, jak pracovat s wikipedií. I přes to, že wikipedia neoplývá výraznou krásou a stylem, je to ukázka naprosto skvělého designu. (který neudělal profesionální designér [[krisa:diplomka:tmp#design_ktery_funguje| více zde]].) Tato přístupnost ve výsledku znamená, že do Wikipedie pravidelně (více než 10x) přispělo přes 300 000 lidí (a 130 000 přispívá každý den). Někteří z nich jen opravují gramatické chyby, jiní na Wikipedii publikují celé svoje akademické výzkumy.
+
+### Růst wikipedie
+
+Ve svých počátcích (rok 2001) byla Wikipedie kritizována konverzativními akademickými kruhy pro nepřesnost informací danou hlavně tím, že moc hl přispívat kdokoliv (v kontrastu se zaniklou encyklopedií Nupedia, která byla psána jen experty). V průběhu let se z anglické verze Wikipedie stal nejen největší, ale má vysokou věrohodnost faktických informací (https://en.wikipedia.org/wiki/Reliability_of_Wikipedia). Rozsah anglické Wikipedie je gigantický, pokud bychom ji chtěli vytisknou do knih o 700 stranách, tak by se v současné době jednalo o 7473 knih. 
+
+Tohle by bylo pro jakoukýkoliv jiný typ hiearchie nemožné. Neexistuje firma nebo stát, který by se něčemu takovému mohl vyrovnat. Navíc obsah na wikipedii má otevřenou licenci, tudíž není problém s ním dále pracovat.
+
+## Scribus
+
+Scribus je open-source nástroj pro tvorbu tiskovin, popisuji ho zde jako typový příklad open-source softwaru. Scribus není využívaný tak jako jeho komerční konkurenti, ale existuje už od roku 2003. Scribus a podobné open-source grafické programy se potýkají s podobnými problémy a celkově mají podobný životní cyklus. Většinou vzniknou velice bouřlivě a krátkém čase několika let vznikne velká část jejich funkcionality. Postupně se začne dít to, že přispěvatele začnou odpadat a začnou se zajímat  o jiné projekty. Jiní se následně zase objevují a s nouvou krví přichází nová enerige a směřování projektu. Je to taková horská dráha a nedá se odhadnout, kam se bude dál vyvíjet. Na Scribusu konkrétně je několik momentů, kdy to vypadalo, že už úplně zanikne. Nikdo z původních vývojářů už něměl sílu a po určitou dobu nebyl nikdo, kdo by se o projekt staral. Ale pak se z ničeho nic někdo objeví. Scribus v poslední době zachraňují vývojáři z Indie, Arabských a Asijských národů, kteří do Scribusu přidávají sazbu textu zprava-doleva (arabština) a shora-dolů (japonština, čínština). Co je tak rozdílne oproti práci s komerčním softwarem je komunita. 
+U komerčního softwaru má uživatel málokdy možnost software nějak ovlivnit. Většinou to nikoho ani nenapadne. U open-source projektu není vůbec složité dostat se do kontaktu s lidmi, kteří software přímo programují. Nikdo jiný tam není. Žádná technická podpora, nebo marketingové oddělení. Jen skupina lidí, kteří se snaží posunovat vývoj programu dál a sami se snaží vyplnit potřebné role. Asi není překvapením, že pokud něco využíváte často, tak se o to začnete více zajímat a stanete se součástí takové komunity. U vývoje grafického softwaru je kromě samotného programování spousta dalších věcí na práci. Koordinátoři práce, lidi co tvoří technickou dokumentaci a návody, lidi co spravují komunikaci s okolím - web projektu, sociální sítě, technická podpora. Existují fundraiseři - open-source projekty se snaží vydělat nějaké peníze a tím zaplatit nutné výdaje (např. servery) případně se zaplatí programátoři aby se posunul vývoj dále. A někdy stačí být zkušený uživatel co prostě dělá se softwarem dobrou práci a projektu pak dovolí se takovou prací prezentovat.
+
+Tenhle pocit komunity - toho že někam člověk patří a že dělá na něčem smysluplném, je pro mnohé vysoce naplňujicí. Je to pravděpodobně podstatnou součástí úspěchu open-source.
+
+## Open-source architektura
+
+Projekt {{http://paperhouses.co/ | Paperhouses }} může být ještě názornějším příkladem toho jakou roli by open-source mohl hrát v budoucnosti.
+
+Paperhouses je jednoduše sbírka plánů pro rodiné domy, vytvořené špičkami současné architektury, které mají otevřenou licenci. Je to odvážný pilotní projekt. Záměrem projektu je rozšířit dosah kvalitního designu aplikováním open-source principů. Kdokoliv si může takovýto dům nechat postavit, upravit a nebo rozšířit. 
+Tohle je mezi architekty a designéry kontroverzní téma. Kvalitní architektura nemůže vznikat šablonovitě, měla by zapadat do svého okolí a vznikat ke svému účelu. Na druhou stranu stav současné architektury rodinných domků by šel tímto způsobem značně vylepšit. Rodinné bydlení už často funguje na podobném šablonovitém proncipu, s tím rozdílem, že šablonu málokdy dělá tak kvalitní architekt a šablona je poskytnutá komerčním sektorem.
+
+Financování a zdrojů open-source návrhů je víc a výrazně se neliší se od [[ krisa:diplomka:tmp#financovaní_open-source | financování]] jiných open-source projektů. Zásadní změna by se týkala přístupu k takové architektuře. Řešení by určitě značně podporovali modulárnost a podporovali by úpravy od lidí které by domky realizovali - principy nastíněné v [[ krisa:diplomka:tmp#design_kdyz_designuje_kazdy |design když designuje každý ]].
+
+## Akumulace vědomostí
+
+Open-source ve výsledku vede k obrovské akumulaci otevřených vědomostí, nástrojů a plánů, které jsou přístupné všem. Tohle je to zásadní a revoluční. A tyto vědomosti nikam nezmizí, jen se rozšiřují a dále vylepšují. Tento přístup se dá aplikovat skoro na všechno, pokud se na to podíváme ze správného úhlu. Znamená to, že pokud existuje něco užitečného, tak je to jen otázka času, než bude existovat open-source ekvivalent.  
+
+## Financování a generování open-source
+
+Open-source dokonce stal obchodním plánem velké řady společností. Jak tyto firmy dokážou vydělávat na open-source softwaru? Hlavně tím způsobem, že neprodávají samotný software, ale technickou podporu a služby s ním spojené. Pro komerční firmy je technická podpora velmi podstatná a kdo jiný je lepší v takové podpoře, nežli firma která ten software programuje a tudíž o něm ví vše. Dalším způsobem monetizace je udělat jádro open-source softwaru a prodávat rozsířené funkce. Existuje spousta dalších způsobů, jakými firmy monetizují svoje open-source produkty, jak ale financovat open-source projekty které nemají takový komerční potenciál a přitom jsou podstatné?
+
+### Státní zakázky
+
+V současné době neexistuje dobrý důvod, proč by měl stát investovat do komerčního softwaru. Případně proč by software který stát využíva neměl mít otevřenou licenci. Stát například platí miliardy korun za softwarová řešení od firmy Microsoft. Využití open-source alternativ by z počátku rozhodně nebylo zadarmo, technická podpora, upravení softwaru pro státní správu a školení státních zaměstnanců, by mohlo stát dokonce více než než kolik by požadoval Microsoft. Tím ale míjíme podstatu, čím dříve se taková investice udělá, tím rychleji stát začne z takového řešení profitovat. Nemusel by pořád dokola prodlužovat licence. Investice do přeškolení je taky jen jednorázová. Největším bonusem je, že by stát přispíval penězi přímo do vývoje softwaru, který by mohli využívat všichni. Dokonce ani neexistuje důvod, proč by státy mezi sebou nemohli využívat stejný software (stejně dělají to u Microsoft Windows) a o tím ještě více ušetřit.
+
+Stát nemusí podobnou strategii využít jen v IT službách. Naopak mohl by například po firmách požadovat poskytování zdrojů s otevřenou licencí. Příkladem vezmu třeba něco z městského mobiliáře. Stát by zaplatil designérské firmě za návrh lavičky s podmínkou toho, že bude mít otevřenou licenci. Poté by našel výrobce, který by lavičky zrealizoval. Díky otevřené licenci by tyto lavičky pak mohli využívat volně i jiná města a kraje. Klidně by takovou lavičku mohli využívat i komerční firmy. Díky tomu že by jí mohl vyrábět kdokoliv, vznikla by konkurence. Pokud by design takové lavičky byl kvalitní, tak by se státu jen povedlo rozšiřovat kvalitní design.
+
+Možná ještě daleko zajímavější příležitosti jsou ve školství. Matematika se nemění, na učebnice už existuje dost dotací. Proč stát konečně nevytvoří open-source učebnici a nechá žáky si takovou učebnici sehnat. Je jedno jestli si jí vytisknou sami, nebo ji koupí od někoho, kdo bude takové knihy produkovat.  Podstata je, že to bude v konečném důsledku pro žáky daleko levnější. Sami učitelé by také mohli takovou učebnici upravovat jak se jim bude hodit, vylepšovat a rozšiřovat jí. A učebnice jsou jenom začátek. Učební portál s open-source přednáškami znamená dát možnost studentům znova si projít přednášku na látku kterou neumí. Paradoxní je současná situace, ve které většina vysokých škol má nějakou databázi video přednášek, ale poskytují je jen studentům jejich školy. Tohle je ve státem financovaném školství naprosto nesmyslné. Školy si tyto databáze mezi sebou drží jako konkurenční výhodu. Přitom takovéto přednášky by mohli umožnit studium třeba těm občanům, kteří si to nemohli dovolit.
+
+# Témata
+
+Následující text popisuje základní témata, která chceme na dočasné zóně řešit. Zdaleka to není kompletní a ustálený seznam,  ale jeho podstatou je nastínit základní rámec našich konverzací.
+
+## Internet
+
+Na počátcích internetu, je pro nás podstatné to, jakým způsobem se internet dostal do popředí. Ve své době existovalo více komerčních konkurentů internetu (AOL) a internet ani nebyl první místo vzniku hypertextu. Pozice internetu tedy nebyla tak jistá, jak se nám to dnes může zdát. V té době si nikdo neuvědomoval sílu komunity a toho, že by mohli existovat lidé, kteří by vytvářeli a zdarma sdíleli obsah s ostantími. Konkurenti internetu tedy pracovali na podobném principu, jako tomu je u kabelové televize. Uživatel zaplatil určitou částku a tím se mu dostal přístup k určité sbírce stránek jako slovník, encyklopedie, zprávy atd. 
+
+Internet uspěl díky radikálně jinému přístupu ke svému financování. Nechal kohokoliv volně připojit a prvotní sítě byly financovány ze stranky unverzit a grantů. Internet nemá žádné centrální řízení, vše se vyvíjí organicky. Největší centrální mocí na internetu je ICANN ((https://www.icann.org/)), ale i ICANN by nemohl internet jednoduše vypnout (ICANN spravuje internetové domény a rozdělení IP adres) protože jednotlivé fyzické části internetu, jsou vlastněny stovkami tisíc firem a organizací. Propojení mezi nimi nelze jenom tak vypnout.
+Tohle je nový typ problému pro státy a organizace, které jsou zvyklé mít vše pevně pod kontrolou. Už od počátků internetu internetu se státům nelíbilo, že nemůžou internet cenzurovat. Asi každý by souhlasil s tím, že na internetu kolují věci natolik nezákonné, že by se neměli dostat nikomu do rukou (dětská pornografie, ukradnuté osobní informace a fotky). Nicméně možnost cenzurovat internet (jak jí v dnešní době navrhuje třeba český ministr Milan Chovanec) by byl naprosto zásadní zásah do fungování internetu. Jakmile se bude dát cenzurovat dětská pornografie nebo hazard, tak půjde cenzurovat cokoliv - jakékoliv špatné názory. Myslíme si, že by byl krok opačným směrem.
+
+## Decentralizace
+
+Většina vtomto textu rozebíraných témat má jeden spojující koncept - decentralizaci. Open-source, budoucnost grafického designu nebo problematika Cloudu, vše se nějakým způsobem týka rozporu mezi centralizovanými a decentralizovanými systémy. Decentralizovaný neboli distribuovaný systém je systém, který je rozdělený na více menších nezávislích systémů, které dohromady plní nějakou funkci. Distribuované systémy mají oproti centralizovaným systémům tři základní charakteristiky. Zaprvé jsou daleko odolnější proti výpadkům, protože pokud vypadne jedna část, ostatní části budou stále fungovat. Druhou charakteristikou je užší specializace jednotlivých částí, nebo v případě vlády větší lokálnost. Třetí charakteristikou je daleko jednodušší zvětšování. Zvětšovat centralizovaný systém je vždy náročnější než zvětšovat decentralizovaný systém (kde stačí přidat nový uzel).
+
+Příkladem decentralizace ve státní vládě by bylo rozdělení větších pravomocí z rukou parlamentu a senátu do rukou jednotlivých krajů a měst. Centralizací je naopak přesouvání pravomocí z parlamentu a senátu České republiky do rukou senátu Evropské unie.
+
+V České republice se začínají objevovat návrhy na množství nepříjemných centralizovaných systémů, na kterých lze ukázat zásadní nevýhody centralizovaného systému. Jsou jimi projekt Státní pokladny ((najít správný název a refenci)) a projekt zdravotního superregistru ((najít správný název a refenci)). Projekt státní pokladny vyžaduje aby všechny transakce procházeli jedním centrálním místem kde budou zkontrolovány. Projekt superregistru naopak shromažďuje všechny zdravotní záznamy všech občanů české republiky. Kromě toho, že bude využívání obou těchto systémů ze zákona povinné, mají oba stejné hlavní nevýhody. Zaprvé pokud se přetíží, tak vypadne celý systém všem. Avšak hlavní nevýhodou takového sytému, je to proč ho stát chce udělat. Na jednom místě shromažďuje citlivé informace o celém českém obyvatelstvu. Pokud někdo takový systém nabourá a zneužije ho, dostane přístup ke všem záznamům najednou. Toto je obrovské bezpečnostní riziko.
+Čím více je systém decentralizovaný, tím méně se ho dá zneužít. Například v současném stavu lékařských záznamů, jsou záznamy drženy převážně u doktora případně pojišťovny pacienta. Pokud někdo nabourá takový systém, dostane se vždy maximálně jenom ke zlomku záznamů. I pokud bychom se smířili s existencí státní pokladny, daleko lepším řešením by bylo systémy co nejvíce rozdělit. Na kraje, nebo jednotlivé finanční úřady.
+Jsme odpůrci centralizovaných systémů, naštěstí decentralizované systémy začínají být velmi populární. Například distribuce a výroba jídla se začína pomalu přesouvat opět k menším lokálnějším systémům fungování. 3D tisk se postupně stává reálnou alternativou masové produkce, což je příklad maximální decentralizace výroby. V decentralizovaných systémech vidíme rozumnou, udržitelnou budoucnost.
+
+# Big data a role korporací
+
+Big Data je název který vznikl aby skryl svůj význam. Je zažitý i v ČR a lze ho běžně slyšet v televizi. V neanglicky mluvící zemi, toto skrytí funguje ještě efektivněji.
+*Data* je kousek informace, například - 8:00. Když začnu skládat hodně dat k sobě, začnu mít *informaci* - 8:00 na Brněnském nádraží, Petr. A jakmile začnu spojovat informace dohromady, začínam tvořit *znalost* o tom čeho se ty informace (a data) týkají. Takže pojem Big data (tedy velká data, hodně dat) doslova znamená tvorba znalostí z dat. Tyto data se týkají lidí, je to relativně nový zdroj, ke kterým státy a firmy doposud něměli přístup (neexistovaly chytré telefony a internet v každé televizi). 
+
+Ve výsledku se jedná o způsob monetizace volně přístupného obsahu, který se postupně vyvinul z internetové reklamy. Zvykli jsme si, že na internetu je obsah zadarmo. Firmy co potřebují vydělávat na obsahu (zprávy, videa, texty) to zpočátku řešili financováním z reklam. Toto se dodnes nezměnilo, ale poskytovatelé reklam se stali daleko inteligentnějšími, než jakými byli na počátku. Reklama je daleko efektivnější (a tudíž hodnotnější), když je cílená na správnou skupinu. Nejlépe na někoho kdo po propagované reklamě přímo touží. Aby takovouto inteligenci firmy získali, museli využít data - big data. Pro cílenou reklamu na internetu je potřeba mít mnoho informací. Zaprvé je nutné identifikovat toho kdo se vlastně na tu reklamu dívá. Dále je potřeba mít nějaké znalosti o tomto člověku, aby bylo možné mu dát adekvátní reklamu. Jedním z hlavních důvodů proč je Facebook tak ohromě výdělečnou korporací, je jejich důraz na identifikování uživatelů. Na facebooku se dnes už nejde   registrovat bez udání pravé totožnosti - což je často následováno nutností poslat kopii dokladu totožnosti. Díky tomu jsou Facebookové reklamy daleko efektivnější (a tudíž hodnotnější), než ty od konkurence (například Goolge AdWords), která musí odhadovat kdo reklamu zrovna vidí. Cílená reklama sama o sobě by nebyl zase tak velký zásah do soukromí, rozhodně ne v porovnaní s tím, jakým způsobem se znalosti o uživatelích využivají dnes. Ukazuje se, že pokud víte odkud a kdy se člověk připojuje na facebook, tak víte kde bydlí, kde asi pracuje, kdy chodí spát a pokud víte to samé o více lidech, tak žačnete mapovat i jaké mezi sebou mají vztahy. Takové znalosti se hodí mnoho dalším stranám, včetně států. Korporace tyhle znalosti směle prodávají, jednoduše obchází stávající zákony (např. tím, že jim uživatelé dají souhlas a nebo díky tomu, že svoje služby přesunou do jiného státu). Na big data je podstatné ještě to, že  výsledné znalosti postupně nabívají na hodnotě. Čím víc jich je a čím delší dobu jsou sbírány, tím jsou hodnotnější a tím se postupně otevírá cesta komu dalšímu je prodat. Výsledek je ten, že služby které jsou zadarmo jsou schopny na sběru dat vydělat daleko více, než kdyby svoje služby zpoplatňovali a fungovali tradičním způsobem. To kolik uživatel vydělá na jednom uživatelovi se může značně lišit, ale na americkém uživateli vydělá facebook asi 70 dolarů ročně, anglický uživatel vydělá asi 60 dolarů a v chudších zemích je to kolem 10 dolarů ročně ((http://www.telegraph.co.uk/technology/facebook/11891353/How-much-money-do-you-make-for-Facebook.html)). To vše za službu, která by stála pravděpodobně (v porovnání s komerčními službami podobného typu) kolem 10-20 dolarů ročně, kdyby fungovala tradičním způsobem.
+
+## Kdo je vlastně klient
+
+Je velmi podstatné se na internetové služby dívat z ekonomického hlediska. Například Google mail neboli Gmail je nejpoužívanější email na světě. Je zadarmo. Gmail ale není služba vyvinutá pro uživatele emailu, jak by se mohlo zdát. Klienty Gmailu nejsou uživatelé Gmailu, nýbrž ti co platí Googlu za reklamu. Uživatelé Gmailu jsou produkt. Celou podstatou služby Gmail je prodat co nejvíce a nejefektivněji reklamu. Evgeny Morozov (( https://en.wikipedia.org/wiki/Evgeny_Morozov teoretik zaměřující se na socio-politické dopady internetu)) Gmail popisuje jako kdyby existoval druh pošty, který vám dovolí odeslat zadarmo pohled, ale před doručením ho oskenuje a přiloží k němu reklamu. Taková služba by v reálném světě mohla existovat, ale prakticky by jí využíval asi málokdo. Díky tomu, že je způsob fungování Gmailu skryt, skoro nikoho nenapadne Gmail a podobné služby zpochybňovat.
+
+## Wearables, smart home, smart city
+
+V následujících letech se očekává velký boom takzvaných chytrých technologií. Wearables (technologie co si člověk může obléci), Smart home (chytrý dům) a smart city (chytré město) jsou pojmy které rámcově označují to stejné. Zapojení doposud nezávislích přístrojů do internetu. Jedná se o věci typu:
+- boty které ví kolik toho člověk ušel
+- termostaty co ví kdy, že se vracíte domů a podle toho regulují teplotu
+- domy které budou vědět, že se vám něco stalo a zavolají záchranáře
+- televize které se sami zapnou a vyberou pro vás kanál
+Tlak ze strany výrobců elektroniky je obrovský a některé technologie dokonce mají určitý smysl.
+
+Každá z takových to technologií ovšem znamená vzdání se další části osobní svobody. Například představa chytrého města, které vyřeší problém nočního osvětlení zní zajímavě. Noční osvětlení spotřebovává obrovské množství energie a to převážně kvůli svícení na místech kde zrovna nikdo není a tudíž světlo nepořebuje. Kdyby město vědělo o pohybu občanů po ulicích, mohlo by svítit podle potřeby. Jednalo by se o obrovské finanční i ekologické šetření. Problémem je, že cena za takovou technologii  je v našem soukromí. Ať už by tento systém fungoval jakkoliv, město by muselo přesně vědět o pohybu lidí na ulicích. Ve chvíli kdy takové informace existují, znamená to, že se dají zneužít.
+
+## Cloud
+
+Cloud (v překladumrak) označuje rozložení internetových serverů, které jsou propojeny do jednoho globálního megaserveru, který umí chytře rozložit svoje prostředky tam kde je jich zrovna potřeba.
+
+Klasický server je naprosto normální počítač, u kterého se očekává, že jede nonstop a je připojený k internetu (ani jedno z toho nemusí být pravda). U serveru je podstatná jeho lokace, někde fyzicky být musí. To je důležité pro jeho fungování, ale také pro to jaké se na něj vztahují zákony. Pokud něco nahrajete na server, je možné to z něj i smazat, server se může rozbít nebo může vypadnout elektřina a on se vypne.
+
+Cloud takto nefunguje. Cloud nemá lokaci, servery jsou v datacentrech všude po světě, ale není jasné na který z nich se co nahrává. Cloud si inteligentně rozvrhuje nejefektivnější způsob fungování a vyvažuje počty uživatelů a zatížení do celého světa. Znamená to, že pokud nahrávám obrázek do cloudu, je dost pravděpodobné, že bude na více fyzických lokacich najednou. Cloud část toho obrázku nahraje do datacentra ve Frankfurtu a druhou část do datacentra v Amsterdamu. Jakmile se ten obrázek stane populárním, tak ho začne cloud duplikovat do datacenter po celém světě.
+
+Jak se pak dá takový obrázek vůbec smazat? Zákony jakého státu se na ten obrázek vztahují? 
+Toto řeší kromě jiného Transatlantická obchodní a investiční úmluva ((https://cs.wikipedia.org/wiki/Transatlantick%C3%A9_obchodn%C3%AD_a_investi%C4%8Dn%C3%AD_partnerstv%C3%AD a http://vttip.cz/)), díky které budou americké firmy i v Čr fungovat podle amerických zákonu. Takže nehledě na to, jaké České zákony na ochranu soukromí a autorství budou existovat, při využívání Amerických internetových služeb (Facebook, Google, Apple, Microsoft) tak nebudou platit.
+
+To ve spojením s agresivními podmínkami užívání se kterými uživatelé musí souhlasit, znamená prakticky nulovou ochranu soukromí nebo dat. Znamená to, že pokud se něco objeví na Facebooku, tak Facebook může udělat cokoliv co uzná za vhodné aby to zpěněžil.
+
+Cloud je symbol centralizovaného internetu, je to něco co se korporace jako Facebook snaží vybudouvat už dlouhou dobu. Je to uzavřený, kontrolovatelný internet, kde platí minimum práv a pokud se to někomu nelibí, tak má smůlu. Protože Facebook se postupně stává internetem a časem se může se stát, že z internetu už nic jiného nezbude.
+
+## Smrt internetu
+?? možná ??
+
+# Role teorie
+V posledních deseti letech, se na problematiku internetu, soukromí a sociálních sítí zaměřilo velké množství teoretiků. To jak jsou tyto témata rozsáhlá, ukazuje rozmanitost expertů, kteří o internetu píšou. Od technologických bezpečnostních expertů a programátorů((Bruce Schneider)), přes právníky, teoretiky médií ((Lev Manovich)), sociology, psychology a dokonce i teoretiky umění((Boris Groys, Metahaven, e-flux)).
+Velkou otázkou pro nás na zóně zůstává, jak 
+V roce 2013 proběhla internetem {{http://www.theguardian.com/commentisfree/2013/jul/19/noam-chomsky-slavoj-zizek-ding-dong | rozepře }} mezi pravděpodobně nejznámějšími žijícími světovými teoretiky - Slavojem Žižkem a Noamem Chomskym. Bez toho abych se hlouběji nořil do původů tohoto konfliktu - Chomsky vyčítal Žižkovi jeho důraz na vysokou teorii, která nemá šanci proniknout do mainstreamového myšlení a tudíž nemá potřebný vliv. Žižek naopak Chomskému vyčítal Chomského populismus a to jak se ve svých faktech mnohokrát mílil.
+
+Co když se oba pletou? Co když ani jeden přístup v dnešní době  nemá výraznější efekt? Vysoká teorie se drží v pořád stejných akademických kruzích a málokdy má vliv někde jinde. Většinou je to jako nošení dříví do lesa, jde o rozvádění předchozích linií myšlení. Mainstreamově zaměřené snahy občas vyvolají nějaký  efekt, ale ten je zpravidla krátkodobý. Přehlušený další zprávou o světové katastrofě, nebo novou verzí Iphone. Cyklus “podstatných” zpráv je dnes tak rychlý, že je to jak kdyby nezbíval žádný čas na reakci. Toto přináší značné výzvy všem, kteří se snaží o aktivismus a potažmo vlasntě cokoliv. Je to stav, kdy nelze odhadnout co by vlastně mohlo fungovat. 
+
+## Funguje publikování textů?
+
+Zdá se, že samotné informace nemají takovou sílu jakou měli v minulosti. Je to asi příznak informační doby. Díky tomu jak rychle informace kolují, dostáváme jich prostě moc. Jsme otupělí. Katastrofy jsou na denním pořádku a ve výsledku je extrémně náročné rozeznat, která z informací je pro nás doopravy důležitá. Kterou informaci bychom měli sledovat a na kterou reagovat. Toto filtrování vžaduje tolik energie, že jsme schopní reagovat jen na ty nejzásadnější zprávy. Ty co se nás přímo týkají, nebo ty které nejvíce propagují veřejná média. Obzvlášt sociální média generují nevyčerpatelný proud informací, který nelze nějak hlouběji vstřebávat. Jedinou naší možnou reakcí je - palec nahoru. Toto kliknutí nebo nekliknutí je jedinou odpovědí, kterou je v tomto čase možné udělat. ((Facebook toto ještě více prohlubuje tím, že uživatelům nedovoluje palec dolů. Tento pozitivismus znamená, že s vámi malokdo nesouhlasí. Jde podporování ve sdílení čehokoliv, protože vás maximálně někdo pochválí, většinou si vás jen někdo nevšímá)). 
+
+# Dočasnost virtuálního světa
+
+Internet - virtuální svět, je natolik nový a mladý, že často přehlížíme jeho chyby. Na jednu takovou chybu jsme narazili, když jsme několikrát neůmyslně smazali naši společnou digitální komunikaci. Fungování naší společnosti je hodně závislé na zapomínání. Zapomínání nám poskytuje určitou volnost, časem zapomeneme na naše předchozí chyby, dovolujeme si být více volní. Virtuální prostor má schopnost nezapomenout. Schopnost zapomenout by se dala do současných systémů navrhnout, ale zatím to nikdo nebere jako prioritu.
+
+Jako ukázku toho proč bychom měli začít navrhovat systémy, které zapomínají uvedu LMS (learning managment system) v česku známé jako elektronické třídnice. Elektronické třídnice jsou v dnes nasazování prakticky do všech státních škol. Na tom mít záznamy o známkách a docházce není samo o sobě nic zlého - vysoké školy to delají už dlouhou dobu. Vysokoškoláci jsou však ti co mají kontrolu nad tímto systémem, narozdíl od dětí na základních školách, kde mají plnou kontrolu jejich rodiče a to v reálném čase. Vytváří to například situaci, kdy dítě nemá ani tu nejmenší kontrolu nad tím, jak pracovat se známkováním a případnou odezvou rodičů. Každý asi někdy zatajil nějakou známku svým rodičum a později to vynahrazoval jinou známkou. Učení se řešení podobných problémů je samo o sobě podstatnou součástí školy. Současné systémy navíc kontrolují další věci: absenci, poznámky, domácí úkoly. Nic si nemůže student kontrolovat. Systémy které umožňují rodičům vidět každý den všechno co se stalo naprosto navíc vytváří další tlak na rodiče, kteří mají pocit, že musí kontrolovat každý krok svých potomků. Dokonce to je od rodičů vyžadováno ze strany učitelů, pro které je to šikovný způsob jak přenést odpovědnost ze školy na rodiče (když někdo něco neumí atd). Ke všemu už existují i případy toho, kdy školy (a firmy) využívali elektronické třídnice (které musí rodiče a učitelé povinně využívat) ke sledování dětí, rodičů i učiteů. 
+
+Mimochodem, taková elektronická třídnice je opět případ státního systému, který by bylo velice výhodné [[ krisa:diplomka:tmp#financovaní_open-source | financovat jako open-source]]. V současné době školy platí komerční systémy a každá si vybírá ten který je pro ně vhodný. Podstatné určitě není nutit školy užívat jeden státem dělaný systém, ale spojit finance škol a najímat firmy které by software tvořili jako open-source a upravovali ho podle potřeby pro jednotlivé školy. Navíc zrovna potřeby škol v české republice se individuálně liší jen minimálně. 
+
+## Snowden
+
+Na Edwardu Snowdenovi nás vlastně nezajímají odhalení které učinil široké veřejnosti. Není překvapující, že USA a ostatní státy, používají agresivní špehování a sběru dat vůči svým občanů. Zajímá nás to, že na ně většina lidí nijak nereagovala. Nevznikla téměř žádná reakce. Je to jako by dnes už žádna reakce vzniknout ani nemohla. Je to stav který Adam Curtis popsal ve svém dokumentu Bitter Lake jako “Nekonečný pád, kdy člověk neví kde je nahoře a kde dole.” Všechno se zdá být zároveň pravda a zároveň lež. Ničím si nemůžeme být jistí, přestává existovat jakákoliv půda pod nohama, od které by se dalo odrazit. Výsledkem je stav absolutní stáze. 
+
+Existuje mnoho teorií o tom kdo Edward Snowden je. Americká vláda ho bere za zrádce. Mnoho amerických médií spekuluje o tom, že je to ruský špión. Naoproti tomu internetová komunita věří, že je to prostě člověk, který na internetu vyrostl a zajímá se o jeho budoucnost. Nic z toho dnes nejde prokázat, ale hlavně to je nepodstatné. Jen to odvádí pozornost od materiálů které zvěřejnil. Materiály (jejichž legitimnost je doložena samotnou americkou vládou) nám ukazují jak internet postupně mizí a vyžívá se světovými vládami k agresivnímu špehování a následné manipulaci občanů. Tohle není otázka politických názorů, je to něco co ohrožuje samotné základy na kterých byla naše společnost vytvořena. Jde o neuvěřitelnou moc, které se dostává omezené skupině lidí.
+
+To že existuje tak malá reakce ze strany veřejnosti je velice znepokojující. Vypadá to jako kdyby se nikoho internet netýkal, jak kdybychom ho nikdo nevyužívali a tudíž nás to nezajímalo. Proč se to děje? Jaktože to zajíma zlomek veřejnosti? Jak můžeme reagovat? Snad na to někdo jednou příjde a snad už nebude pozdě. 
+
+## Programátorská etika
+
+Programování je nepochybně černou magií naší doby. Na konci však vždy musí stát programátoři, nehledě na to jestli programují open-source software a nebo škodlivý virus. Podstatné je, že množství programátorů kteří programují eticky kontroverzní software, musí být obrovské množství. Kdo programuje všechen ten software? Programátor ve Facebooku, musí přesně rozumět celému fungování té firmy. Musí rozumět jak Facebook vydělává peníze a čím je to kontroverzní. To vše mu muselo projít hlavou.
+Je to problém typu rakety V2 a Wernher von Braun. Wernher von Braun chtěl tvořit rakety k tomu aby lidé mohli jednou letět do vesmíru, což v průběhu cesty znamenalo konstruovat rakety V2 k masovému zabíjení lidí.
+
+Kromě toho, že korporace mají nemalé zdroje, k zaplacení svých programátorů, existuje tu ještě problém školství vztahu humanitních věd. Naprostá většina programátorů má nějakou technickou vysokou školu. Z technických škol úplně vymizely humanitní vědy, někde jsou možná volitelné, ale základy etiky nebo společenských věd na technické škole dnes prakticky nemají místo. Je možné, že by takové prostředí vytvářelo superinteligentní programátory, kteří hlouběji neřeší společnost kolem sebe a hledí si tzv. svého?
+
+# Závěr? (VYŘEŠIT)
+
+Ještě nevím.
+

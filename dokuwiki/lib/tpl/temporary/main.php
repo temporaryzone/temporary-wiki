@@ -31,87 +31,113 @@ $showSidebar = page_findnearest($conf['sidebar']) && ($ACT=='show');
 
 <body>
     <div id="dokuwiki__site">
-    <div id="dokuwiki__top" class="site <?php echo tpl_classes(); ?> <?php
-        echo ($showSidebar) ? 'hasSidebar' : ''; ?>">
-        <?php html_msgarea() /* occasional error and info messages on top of the page */ ?>
-        <?php tpl_includeFile('header.html') ?>
+        <div class="header_wrapper">
+            <div id="dokuwiki__top" class="site <?php echo tpl_classes(); ?> <?php
+                echo ($showSidebar) ? 'hasSidebar' : ''; ?>">
+                <?php html_msgarea() /* occasional error and info messages on top of the page */ ?>
+                <?php tpl_includeFile('header.html') ?>
+                <div id="dokuwiki__upper">
+<!--                     <div class="site_description">
+                        <p>Dočasná zóna je neziskové open-source design studio. Jsme skupina angažovaných designéru, umělců a programátorů, kteří využívají nové a alternativní způsoby rozložení práce. Inspirují nás principy fungování open-source komunity, které aplikujeme na design a umění. Pomáháme neziskovým organizacím a projektům, nebo projekty sami iniciujeme. Naše výstupy jsou věřejně přístupné a mají otevřenou licenci.</p>
+                    </div> -->
 
-        <!-- ********** HEADER ********** -->
-        <div id="dokuwiki__header">
+                    <!-- ********** ASIDE ********** -->
+                    <?php if ($showSidebar): ?>
+                        <div id="dokuwiki__aside"><div class="pad aside include group">
+                            <?php tpl_includeFile('sidebarheader.html') ?>
+                            <?php tpl_include_page($conf['sidebar'], 1, 1) /* includes the nearest sidebar page */ ?>
+                            <?php tpl_includeFile('sidebarfooter.html') ?>
+                            <div class="clearer"></div>
+                        </div></div><!-- /aside -->
+                    <?php endif; ?>
 
-            <div class="headings">
-                <h1><?php tpl_link(wl(),$conf['title'],'accesskey="h" title="[H]"') ?></h1>
-            </div>
-            <div class="search"><?php tpl_searchform() ?></div>
-            <!-- BREADCRUMBS -->
-            <?php if($conf['breadcrumbs']){ ?>
-                <div class="breadcrumbs"><?php tpl_breadcrumbs() ?></div>
-            <?php } ?>
-            <?php if($conf['youarehere']){ ?>
-                <div class="breadcrumbs"><?php tpl_youarehere() ?></div>
-            <?php } ?>
+                    <div class="site_user">
 
-            
-                <!-- SITE TOOLS -->
-                <div id="dokuwiki__sitetools">
-                    <h3 class="a11y"><?php echo $lang['site_tools'] ?></h3>
-                    
-                    <ul>
-                        <?php tpl_toolsevent('sitetools', array(
-                            'recent'    => tpl_action('recent', 1, 'li', 1),
-                            'media'     => tpl_action('media', 1, 'li', 1),
-                            'index'     => tpl_action('index', 1, 'li', 1),
-                        )); ?>
-                    </ul>
+                            <!-- USER TOOLS -->
+                            <?php if ($conf['useacl'] && $showTools): ?>
+                                <div id="dokuwiki__usertools">
+                                    <h3 class="a11y"><?php echo $lang['user_tools'] ?></h3>
+                                    <ul>
+                                        <?php
+                                            if (!empty($_SERVER['REMOTE_USER'])) {
+                                                echo '<li class="user">';
+                                                tpl_userinfo(); /* 'Logged in as ...' */
+                                                echo '</li>';
+                                            }
+                                        ?>
+                                        <?php /* the optional second parameter of tpl_action() switches between a link and a button,
+                                                 e.g. a button inside a <li> would be: tpl_action('edit', 0, 'li') */
+                                        ?>
+                                        <?php tpl_toolsevent('usertools', array(
+                                            'login'     => tpl_action('login', 1, 'li', 1),
+                                            'admin'     => tpl_action('admin', 1, 'li', 1),
+                                            'userpage'  => _tpl_action('userpage', 1, 'li', 1),
+                                            'profile'   => tpl_action('profile', 1, 'li', 1),
+                                            'register'  => tpl_action('register', 1, 'li', 1),
+                                        )); ?>
+                                    </ul>
+
+                                </div>
+                            <?php endif ?>
+                                        <!-- PAGE ACTIONS -->
+                        <?php if ($showTools): ?>
+                            <div id="dokuwiki__pagetools">
+                                <h3 class="a11y"><?php echo $lang['page_tools'] ?></h3>
+                                <ul>
+                                    <?php tpl_toolsevent('pagetools', array(
+                                        'edit'      => tpl_action('edit', 1, 'li', 1),
+                                        'discussion'=> _tpl_action('discussion', 1, 'li', 1),
+                                        'revisions' => tpl_action('revisions', 1, 'li', 1),
+                                        'backlink'  => tpl_action('backlink', 1, 'li', 1),
+                                        'subscribe' => tpl_action('subscribe', 1, 'li', 1),
+                                        'revert'    => tpl_action('revert', 1, 'li', 1),
+                                        'top'       => tpl_action('top', 1, 'li', 1),
+                                    )); ?>
+                                </ul>
+                            </div>
+                        <?php endif; ?>
+
+
+
+                                                                    <!-- SITE TOOLS -->
+                        <div id="dokuwiki__sitetools">
+                            <h3 class="a11y"><?php echo $lang['site_tools'] ?></h3>
+                            
+                            <ul>
+                                <?php tpl_toolsevent('sitetools', array(
+                                    'recent'    => tpl_action('recent', 1, 'li', 1),
+                                    'media'     => tpl_action('media', 1, 'li', 1),
+                                    'index'     => tpl_action('index', 1, 'li', 1),
+                                )); ?>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end of upper -->
+            </div>  <!-- end of dokuwiki top -->
+            <!-- ********** HEADER ********** -->
+            <div id="dokuwiki__header">
+
+                <div class="header_row">
+                    <div class="headings sloup">
+                        <h1><?php tpl_link(wl(),$conf['title'],'accesskey="h" title="[H]"') ?></h1>
+                    </div>
+                    <div class="search sloup"><?php tpl_searchform() ?></div>
+                    <div id="menubutton" class="sloup"><button>MENU</button></div>
                 </div>
 
+                    <!-- BREADCRUMBS -->
+                    <?php if($conf['breadcrumbs']){ ?>
+                        <div class="breadcrumbs"><?php tpl_breadcrumbs() ?></div>
+                    <?php } ?>
+                    <?php if($conf['youarehere']){ ?>
+                        <div class="breadcrumbs"><?php tpl_youarehere() ?></div>
+                    <?php } ?>
+                        </div>
 
-                <!-- USER TOOLS -->
-                <?php if ($conf['useacl'] && $showTools): ?>
-                    <div id="dokuwiki__usertools">
-                        <h3 class="a11y"><?php echo $lang['user_tools'] ?></h3>
-                        <ul>
-                            <?php
-                                if (!empty($_SERVER['REMOTE_USER'])) {
-                                    echo '<li class="user">';
-                                    tpl_userinfo(); /* 'Logged in as ...' */
-                                    echo '</li>';
-                                }
-                            ?>
-                            <?php /* the optional second parameter of tpl_action() switches between a link and a button,
-                                     e.g. a button inside a <li> would be: tpl_action('edit', 0, 'li') */
-                            ?>
-                            <?php tpl_toolsevent('usertools', array(
-                                'admin'     => tpl_action('admin', 1, 'li', 1),
-                                'userpage'  => _tpl_action('userpage', 1, 'li', 1),
-                                'profile'   => tpl_action('profile', 1, 'li', 1),
-                                'register'  => tpl_action('register', 1, 'li', 1),
-                                'login'     => tpl_action('login', 1, 'li', 1),
-                            )); ?>
-                        </ul>
-                    </div>
-                <?php endif ?>
-
-
-
-
-
-
-
-        </div><!-- /header -->
-
+            </div><!-- /header -->
+       </div> <!-- end of header wrapper -->
 
         <div class="wrapper">
-
-            <!-- ********** ASIDE ********** -->
-            <?php if ($showSidebar): ?>
-                <div id="dokuwiki__aside"><div class="pad aside include group">
-                    <?php tpl_includeFile('sidebarheader.html') ?>
-                    <?php tpl_include_page($conf['sidebar'], 1, 1) /* includes the nearest sidebar page */ ?>
-                    <?php tpl_includeFile('sidebarfooter.html') ?>
-                    <div class="clearer"></div>
-                </div></div><!-- /aside -->
-            <?php endif; ?>
 
             <!-- ********** CONTENT ********** -->
             <div id="dokuwiki__content"><div class="pad">
@@ -120,35 +146,16 @@ $showSidebar = page_findnearest($conf['sidebar']) && ($ACT=='show');
 
                 <div class="page">
                     <!-- wikipage start -->
-                    <?php tpl_content() /* the main content */ ?>
+                    <?php tpl_content(false) /* the main content */ ?>
                     <!-- wikipage stop -->
-                    <div class="clearer"></div>
                 </div>
 
                 <?php tpl_flush() ?>
                 <?php tpl_includeFile('pagefooter.html') ?>
             </div></div><!-- /content -->
 
-            <div class="clearer"></div>
-            <hr class="a11y" />
 
-            <!-- PAGE ACTIONS -->
-            <?php if ($showTools): ?>
-                <div id="dokuwiki__pagetools">
-                    <h3 class="a11y"><?php echo $lang['page_tools'] ?></h3>
-                    <ul>
-                        <?php tpl_toolsevent('pagetools', array(
-                            'edit'      => tpl_action('edit', 1, 'li', 1),
-                            'discussion'=> _tpl_action('discussion', 1, 'li', 1),
-                            'revisions' => tpl_action('revisions', 1, 'li', 1),
-                            'backlink'  => tpl_action('backlink', 1, 'li', 1),
-                            'subscribe' => tpl_action('subscribe', 1, 'li', 1),
-                            'revert'    => tpl_action('revert', 1, 'li', 1),
-                            'top'       => tpl_action('top', 1, 'li', 1),
-                        )); ?>
-                    </ul>
-                </div>
-            <?php endif; ?>
+
         </div><!-- /wrapper -->
 
         <!-- ********** FOOTER ********** -->
@@ -162,5 +169,13 @@ $showSidebar = page_findnearest($conf['sidebar']) && ($ACT=='show');
 
     <div class="no"><?php tpl_indexerWebBug() /* provide DokuWiki housekeeping, required in all templates */ ?></div>
     <!--[if lte IE 8 ]></div><![endif]-->
+<!--     <script src="lib/tpl/temporary/scripts/jquery.waypoints.js"></script>
+    <script src="lib/tpl/temporary/scripts/sticky.js"></script> -->
+    <script>
+
+
+
+
+    </script>
 </body>
 </html>

@@ -1,0 +1,46 @@
+#dokuwiki__aside {
+          /*columns: 5 200px;*/
+          lost-column: 10/12;
+}
+#dokuwiki__aside h3 {
+/*column-break-before: always;*/
+	/*break-before: column;*/
+    text-transform: uppercase;
+    font-family: 'oswald';
+    font-size: 1rem;
+    display: block;
+    margin: 20px 0 3px 0;
+    width: auto;
+	/*float: left;*/
+}
+#dokuwiki__aside h4 {
+	    font-family: 'office';	
+	    margin: 3px 0px 3px 0px;
+	    font-size: 0.7rem;
+    display: block;
+}
+.level3 {
+	display: inline;
+
+}
+.level3 p {
+margin: 0;
+display: inline;
+	width: auto;
+	/*float: left;*/
+}
+
+
+.level3 {
+	display: inline;
+
+}
+.level3 p {
+margin: 0;
+display: inline;
+	width: auto;
+	/*float: left;*/
+}
+#dokuwiki__aside hr {
+/*display: none;*/
+}
